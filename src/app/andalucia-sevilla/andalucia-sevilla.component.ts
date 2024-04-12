@@ -33,12 +33,6 @@ export class AndaluciaSevillaComponent implements OnInit {
     this.images = document.querySelectorAll('.imagenes-catedral img');
     this.showImage(this.currentIndex);
     setInterval(() => this.nextImage(), this.interval);
-
-    //NO FUNCIONA
-     // Simular un retraso más largo antes de mostrar el párrafo
-  setTimeout(() => {
-    this.mostrarParrafo = true;
-  }, 5000); // Cambié el tiempo a 5000ms (5 segundos)
   }
 
   showImage(index: number): void {
