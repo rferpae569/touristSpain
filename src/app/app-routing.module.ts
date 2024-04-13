@@ -1,9 +1,9 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { AndaluciaSevillaComponent } from './andalucia-sevilla/andalucia-sevilla.component';
+import { AndaluciaSevillaCatedralGiraldaComponent } from './andalucia-sevilla-catedral-giralda/andalucia-sevilla-catedral-giralda.component';
 
 const routes: Routes = [
-  { path: '', component: AndaluciaSevillaComponent },
+  { path: '', component: AndaluciaSevillaCatedralGiraldaComponent },
 ];
 
 @NgModule({

@@ -2,14 +2,14 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { AndaluciaSevillaComponent } from './andalucia-sevilla/andalucia-sevilla.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { AndaluciaSevillaCatedralGiraldaComponent } from './andalucia-sevilla-catedral-giralda/andalucia-sevilla-catedral-giralda.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    AndaluciaSevillaComponent
+    AndaluciaSevillaCatedralGiraldaComponent
   ],
   imports: [
     BrowserModule,

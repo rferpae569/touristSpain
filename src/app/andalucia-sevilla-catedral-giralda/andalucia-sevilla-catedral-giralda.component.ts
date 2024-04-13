@@ -2,9 +2,9 @@ import { Component, OnInit } from '@angular/core';
 import { trigger, state, style, animate, transition } from '@angular/animations';
 
 @Component({
-  selector: 'app-andalucia-sevilla',
-  templateUrl: './andalucia-sevilla.component.html',
-  styleUrls: ['./andalucia-sevilla.component.scss'],
+  selector: 'app-andalucia-sevilla-catedral-giralda',
+  templateUrl: './andalucia-sevilla-catedral-giralda.component.html',
+  styleUrls: ['./andalucia-sevilla-catedral-giralda.component.scss'],
   animations: [
     trigger('slideDown', [
       state('void', style({
@@ -19,8 +19,8 @@ import { trigger, state, style, animate, transition } from '@angular/animations'
     ])
   ]
 })
-export class AndaluciaSevillaComponent implements OnInit {
-  
+export class AndaluciaSevillaCatedralGiraldaComponent implements OnInit {
+
   images!: NodeListOf<HTMLImageElement>;
   currentIndex: number = 0;
   interval: number = 5000; // 5 segundos
