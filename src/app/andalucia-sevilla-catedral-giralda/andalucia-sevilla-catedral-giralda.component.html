@@ -30,7 +30,7 @@
       <!--Lista Monumentos-->
       <ul class="lista-monumentos">
         <li>La Catedral de Sevilla y La giralda</li>
-        <li>El Real Alcázar</li>
+        <li><a [routerLink]="['/RealAlcazarSevilla']">El Real Alcázar</a></li>
         <li>La Plaza de España</li>
         <li>La Maestranza</li>
         <li>La Torre del Oro</li>
@@ -84,22 +84,19 @@
           </div>
           <div class="module">
             <div class="Catedral-Informacion">
-              <h1
-                class="module_header titulo"
-                id="catedral_header"
-              >
+              <h1 class="module_header titulo" id="catedral_header">
                 La Catedral
               </h1>
-              <p
-                class="style-texto"
-                >
+              <p class="style-texto">
                 La Catedral de Sevilla te dejará perplejo por sus proporciones.
                 Cuentan las crónicas que fue concebido por el Cabildo
-                Catedralicio bajo las palabras <em> «Hagamos un templo tan grandioso
-                que los que lo vieren labrado nos tengan por locos»</em>. Todo en la
-                Catedral es colosal. Podrás admirar el retablo mayor,
-                considerado por muchos una de las obras más destacadas de la
-                historia del arte, o ver de cerca el mausoleo donde descansan
+                Catedralicio bajo las palabras
+                <em>
+                  «Hagamos un templo tan grandioso que los que lo vieren labrado
+                  nos tengan por locos»</em
+                >. Todo en la Catedral es colosal. Podrás admirar el retablo
+                mayor, considerado por muchos una de las obras más destacadas de
+                la historia del arte, o ver de cerca el mausoleo donde descansan
                 los restos de <strong>Cristóbal Colón.</strong>
               </p>
             </div>
@@ -109,10 +106,7 @@
           <div class="module">
             <div class="Giralda-Informacion">
               <h1 class="module_header titulo">La Giralda</h1>
-              <p
-                class="style-texto"
-                [@slideDown]="mostrarParrafo ? 'visible' : 'hidden'"
-              >
+              <p class="style-texto">
                 La Giralda de Sevilla es una torre de unas dimensiones sin
                 comparación para una construcción de su época (desde el siglo
                 XII hasta el XVI). De hecho, fue durante mucho tiempo la
