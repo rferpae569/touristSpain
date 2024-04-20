@@ -1,11 +1,3 @@
-.background-image {
-  background-image: url("../../assets/img/fondos/fondoSevilla.jpg");
-  background-size: cover;
-  background-position: center;
-  width: 103.5%;
-  height: 400vh;
-}
-
 .provincias-andaluzas {
   background-color: #006847;
   color: #fff;
@@ -14,7 +6,8 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
   border-radius: 5px;
   width: 103.5%;
-  margin: 0;
+  margin-top: 10vh;
+  position: relative;
 }
 
 .provincias-list {
@@ -53,13 +46,13 @@
 }
 
 .imagen-izquierda {
-  left: 10px;
+  left: 15px;
   top: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 .imagen-derecha {
-  right: 10px;
+  right: 25px;
   top: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
@@ -73,7 +66,7 @@
 
 .Monumentos-sevilla,
 .Monumentos-sevilla .row {
-  width: 102.5%;
+  width: 103.5%;
   display: block;
 }
 
@@ -94,14 +87,14 @@
 }
 
 .Monumentos-sevilla .row .column .module {
-  width: 50%;
+  width: 47%;
   padding: 15px;
   box-sizing: border-box;
   text-align: justify;
 }
 
 .Monumentos-sevilla .row .column .module img {
-  width: 100%;
+  width: 95%;
   height: auto;
   border: 8px solid #ddd;
   border-radius: 15px;
@@ -109,7 +102,7 @@
 }
 
 .style-texto {
-  color: white;
+  color: black;
   font-family: "Roboto", sans-serif;
   font-size: 35px;
   text-align: justify;
@@ -161,7 +154,7 @@
 
 .informacion-visita {
   position: absolute;
-  top: 2030px;
+  top: 439.5vh;
   background-color: rgba(255, 255, 255, 0.8);
   padding: 20px;
   border-radius: 10px;
@@ -243,4 +236,67 @@ iframe {
   display: block;
   margin: 0 auto;
   border-radius: 15px;
+}
+
+.slider-frame {
+  width: 108.5%;
+  height: 100vh;
+  margin: 0;
+}
+
+.slider-frame ul {
+  display: flex;
+  padding: 0;
+  width: 300%;
+  animation: slide 20s infinite alternate ease-in-out;
+  margin: 0;
+}
+
+.slider-frame li {
+  width: 33.333%;
+  list-style: none;
+}
+
+.slider-frame img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+@keyframes slide {
+  0% {
+    margin-left: 0;
+  }
+  25% {
+    margin-left: 0;
+  }
+
+  30% {
+    margin-left: 0;
+  }
+  33.33% {
+    margin-left: -100%;
+  }
+
+  58.33% {
+    margin-left: -100%;
+  }
+
+  63.33% {
+    margin-left: -100%;
+  }
+  66.66% {
+    margin-left: -200%;
+  }
+
+  91.66% {
+    margin-left: -200%;
+  }
+
+  96.66% {
+    margin-left: -200%;
+  }
+  100% {
+    margin-left: -200%;
+  }
 }
