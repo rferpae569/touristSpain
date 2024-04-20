@@ -87,7 +87,7 @@
 }
 
 .Monumentos-sevilla .row .column .module {
-  width: 50%;
+  width: 47%;
   padding: 15px;
   box-sizing: border-box;
   text-align: justify;
@@ -154,7 +154,7 @@
 
 .informacion-visita {
   position: absolute;
-  top: 543vh;
+  top: 578vh;
   background-color: rgba(255, 255, 255, 0.8);
   padding: 20px;
   border-radius: 10px;
@@ -236,6 +236,17 @@ iframe {
   display: block;
   margin: 0 auto;
   border-radius: 15px;
+}
+
+.leyendaImagen {
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  color: #333;
+  border-radius: 5px;
+  bottom: 10px;
+  right: 10px;
+  text-align: center;
+  font-style: italic;
 }
 
 .slider-frame {
