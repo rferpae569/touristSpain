@@ -6,7 +6,7 @@ import { AndaluciaSevillaPlazaEspanaComponent } from './andalucia-sevilla-plaza-
 import { SevillaMenuComponent } from './sevilla-menu/sevilla-menu.component';
 
 const routes: Routes = [
-  // {path: '', component:SevillaMenuComponent},
+  {path: '', component:SevillaMenuComponent},
   { path: 'CatedralGiraldaSevilla', component: AndaluciaSevillaCatedralGiraldaComponent },
   { path: 'RealAlcazarSevilla', component: AndaluciaSevillaRealAlcazarComponent } ,
   { path: 'PlazaEspanaSevilla', component: AndaluciaSevillaPlazaEspanaComponent } 
