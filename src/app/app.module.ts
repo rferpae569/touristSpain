@@ -7,6 +7,7 @@ import { AndaluciaSevillaCatedralGiraldaComponent } from './Monumentos-Sevilla/a
 import { AndaluciaSevillaRealAlcazarComponent } from './Monumentos-Sevilla/andalucia-sevilla-real-alcazar/andalucia-sevilla-real-alcazar.component';
 import { AndaluciaSevillaPlazaEspanaComponent } from './Monumentos-Sevilla/andalucia-sevilla-plaza-espana/andalucia-sevilla-plaza-espana.component';
 import { SevillaMenuComponent } from './sevilla-menu/sevilla-menu.component';
+import { AndaluciaSevillaMaestranzaComponent } from './Monumentos-Sevilla/andalucia-sevilla-maestranza/andalucia-sevilla-maestranza.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { SevillaMenuComponent } from './sevilla-menu/sevilla-menu.component';
     AndaluciaSevillaCatedralGiraldaComponent,
     AndaluciaSevillaRealAlcazarComponent,
     AndaluciaSevillaPlazaEspanaComponent,
-    SevillaMenuComponent
+    SevillaMenuComponent,
+    AndaluciaSevillaMaestranzaComponent
   ],
   imports: [
     BrowserModule,
