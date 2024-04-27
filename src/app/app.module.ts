@@ -8,6 +8,7 @@ import { AndaluciaSevillaRealAlcazarComponent } from './Monumentos-Sevilla/andal
 import { AndaluciaSevillaPlazaEspanaComponent } from './Monumentos-Sevilla/andalucia-sevilla-plaza-espana/andalucia-sevilla-plaza-espana.component';
 import { SevillaMenuComponent } from './sevilla-menu/sevilla-menu.component';
 import { AndaluciaSevillaMaestranzaComponent } from './Monumentos-Sevilla/andalucia-sevilla-maestranza/andalucia-sevilla-maestranza.component';
+import { AndaluciaSevillaTorreOroComponent } from './Monumentos-Sevilla/andalucia-sevilla-torre-oro/andalucia-sevilla-torre-oro.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { AndaluciaSevillaMaestranzaComponent } from './Monumentos-Sevilla/andalu
     AndaluciaSevillaRealAlcazarComponent,
     AndaluciaSevillaPlazaEspanaComponent,
     SevillaMenuComponent,
-    AndaluciaSevillaMaestranzaComponent
+    AndaluciaSevillaMaestranzaComponent,
+    AndaluciaSevillaTorreOroComponent
   ],
   imports: [
     BrowserModule,
