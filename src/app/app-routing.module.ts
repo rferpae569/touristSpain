@@ -6,6 +6,7 @@ import { AndaluciaSevillaPlazaEspanaComponent } from './Monumentos-Sevilla/andal
 import { AndaluciaSevillaMaestranzaComponent } from './Monumentos-Sevilla/andalucia-sevilla-maestranza/andalucia-sevilla-maestranza.component';
 import { AndaluciaSevillaTorreOroComponent } from './Monumentos-Sevilla/andalucia-sevilla-torre-oro/andalucia-sevilla-torre-oro.component';
 import { AndaluciaSevillaPuenteTrianaComponent } from './Monumentos-Sevilla/andalucia-sevilla-puente-triana/andalucia-sevilla-puente-triana.component';
+import { AndaluciaSevillaLaSetaComponent } from './Monumentos-Sevilla/andalucia-sevilla-la-seta/andalucia-sevilla-la-seta.component';
 import { SevillaMenuComponent } from './sevilla-menu/sevilla-menu.component';
 
 const routes: Routes = [
@@ -15,7 +16,8 @@ const routes: Routes = [
   { path: 'PlazaEspanaSevilla', component: AndaluciaSevillaPlazaEspanaComponent },
   { path: 'MaestranzaSevilla', component: AndaluciaSevillaMaestranzaComponent },
   { path: 'TorreOroSevilla', component:AndaluciaSevillaTorreOroComponent},
-  { path: 'PuenteTrianaSevilla', component:AndaluciaSevillaPuenteTrianaComponent} 
+  { path: 'PuenteTrianaSevilla', component:AndaluciaSevillaPuenteTrianaComponent},
+  { path: 'LaSetaSevilla', component:AndaluciaSevillaLaSetaComponent} 
 ];
 
 @NgModule({
