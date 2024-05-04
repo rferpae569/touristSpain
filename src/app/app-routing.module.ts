@@ -22,7 +22,7 @@ const routes: Routes = [
   { path: 'PuenteTrianaSevilla', component:AndaluciaSevillaPuenteTrianaComponent},
   { path: 'LaSetaSevilla', component:AndaluciaSevillaLaSetaComponent},
   { path: 'ArchivoIndiasSevilla', component:AndaluciaSevillaArchivoIndiasComponent},
-  { path: 'HospitalCaridadSeviilla', component:AndaluciaSevillaHospitalCaridadComponent},
+  { path: 'HospitalCaridadSevilla', component:AndaluciaSevillaHospitalCaridadComponent},
   { path: 'HospitalVerenablesSevilla', component:AndaluciaSevillaHospitalVenerablesComponent} 
 ];
 
