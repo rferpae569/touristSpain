@@ -8,6 +8,8 @@ import { AndaluciaSevillaTorreOroComponent } from './Monumentos-Sevilla/andaluci
 import { AndaluciaSevillaPuenteTrianaComponent } from './Monumentos-Sevilla/andalucia-sevilla-puente-triana/andalucia-sevilla-puente-triana.component';
 import { AndaluciaSevillaLaSetaComponent } from './Monumentos-Sevilla/andalucia-sevilla-la-seta/andalucia-sevilla-la-seta.component';
 import { AndaluciaSevillaArchivoIndiasComponent } from './Monumentos-Sevilla/andalucia-sevilla-archivo-indias/andalucia-sevilla-archivo-indias.component';
+import { AndaluciaSevillaHospitalCaridadComponent } from './Monumentos-Sevilla/andalucia-sevilla-hospital-caridad/andalucia-sevilla-hospital-caridad.component';
+import { AndaluciaSevillaHospitalVenerablesComponent } from './Monumentos-Sevilla/andalucia-sevilla-hospital-venerables/andalucia-sevilla-hospital-venerables.component';
 import { SevillaMenuComponent } from './sevilla-menu/sevilla-menu.component';
 
 const routes: Routes = [
@@ -19,7 +21,9 @@ const routes: Routes = [
   { path: 'TorreOroSevilla', component:AndaluciaSevillaTorreOroComponent},
   { path: 'PuenteTrianaSevilla', component:AndaluciaSevillaPuenteTrianaComponent},
   { path: 'LaSetaSevilla', component:AndaluciaSevillaLaSetaComponent},
-  { path: 'ArchivoIndiasSevilla', component:AndaluciaSevillaArchivoIndiasComponent} 
+  { path: 'ArchivoIndiasSevilla', component:AndaluciaSevillaArchivoIndiasComponent},
+  { path: 'HospitalCaridadSeviilla', component:AndaluciaSevillaHospitalCaridadComponent},
+  { path: 'HospitalVerenablesSevilla', component:AndaluciaSevillaHospitalVenerablesComponent} 
 ];
 
 @NgModule({
