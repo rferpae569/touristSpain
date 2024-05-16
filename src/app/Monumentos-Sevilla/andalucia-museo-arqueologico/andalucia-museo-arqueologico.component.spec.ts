@@ -1,16 +1,16 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { MuseoArqueologicoComponent } from './museo-arqueologico.component';
+import { AndaluciaMuseoArqueologicoComponent } from './andalucia-museo-arqueologico.component';
 
 describe('MuseoArqueologicoComponent', () => {
-  let component: MuseoArqueologicoComponent;
-  let fixture: ComponentFixture<MuseoArqueologicoComponent>;
+  let component: AndaluciaMuseoArqueologicoComponent;
+  let fixture: ComponentFixture<AndaluciaMuseoArqueologicoComponent>;
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [MuseoArqueologicoComponent]
+      declarations: [AndaluciaMuseoArqueologicoComponent]
     });
-    fixture = TestBed.createComponent(MuseoArqueologicoComponent);
+    fixture = TestBed.createComponent(AndaluciaMuseoArqueologicoComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
