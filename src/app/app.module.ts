@@ -14,7 +14,7 @@ import { AndaluciaSevillaLaSetaComponent } from './Monumentos-Sevilla/andalucia-
 import { AndaluciaSevillaArchivoIndiasComponent } from './Monumentos-Sevilla/andalucia-sevilla-archivo-indias/andalucia-sevilla-archivo-indias.component';
 import { AndaluciaSevillaHospitalVenerablesComponent } from './Monumentos-Sevilla/andalucia-sevilla-hospital-venerables/andalucia-sevilla-hospital-venerables.component';
 import { AndaluciaSevillaHospitalCaridadComponent } from './Monumentos-Sevilla/andalucia-sevilla-hospital-caridad/andalucia-sevilla-hospital-caridad.component';
-
+import { AndaluciaMuseoArqueologicoComponent } from './Monumentos-Sevilla/andalucia-museo-arqueologico/andalucia-museo-arqueologico.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +29,8 @@ import { AndaluciaSevillaHospitalCaridadComponent } from './Monumentos-Sevilla/a
     AndaluciaSevillaLaSetaComponent,
     AndaluciaSevillaArchivoIndiasComponent,
     AndaluciaSevillaHospitalVenerablesComponent,
-    AndaluciaSevillaHospitalCaridadComponent
+    AndaluciaSevillaHospitalCaridadComponent,
+    AndaluciaMuseoArqueologicoComponent
   ],
   imports: [
     BrowserModule,
