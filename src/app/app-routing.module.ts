@@ -27,7 +27,7 @@ const routes: Routes = [
   { path: 'HospitalCaridadSevilla', component:AndaluciaSevillaHospitalCaridadComponent},
   { path: 'HospitalVerenablesSevilla', component:AndaluciaSevillaHospitalVenerablesComponent},
   { path: 'MuseoArqueologicoSevilla', component:AndaluciaMuseoArqueologicoComponent},
-  { path: 'MuseoArtesCostumbresSevilla', component:AndaluciaMuseoArtesCostumbresComponent} 
+  { path: 'MuseoArtesCostumbresSevilla', component:AndaluciaMuseoArtesCostumbresComponent},
 ];
 
 @NgModule({
