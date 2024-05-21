@@ -13,6 +13,7 @@ import { AndaluciaSevillaHospitalVenerablesComponent } from './Monumentos-Sevill
 import { AndaluciaMuseoArqueologicoComponent } from './Monumentos-Sevilla/andalucia-museo-arqueologico/andalucia-museo-arqueologico.component';
 import { AndaluciaMuseoArtesCostumbresComponent } from './Monumentos-Sevilla/andalucia-museo-artes-costumbres/andalucia-museo-artes-costumbres.component';
 import { AndaluciaAyuntamientoSevillaComponent } from './Monumentos-Sevilla/andalucia-ayuntamiento-sevilla/andalucia-ayuntamiento-sevilla.component';
+import { AndaluciaSevillaPalacioDuenasComponent } from './Monumentos-Sevilla/andalucia-sevilla-palacio-duenas/andalucia-sevilla-palacio-duenas.component';
 import { SevillaMenuComponent } from './sevilla-menu/sevilla-menu.component';
 
 const routes: Routes = [
@@ -29,7 +30,8 @@ const routes: Routes = [
   { path: 'HospitalVerenablesSevilla', component:AndaluciaSevillaHospitalVenerablesComponent},
   { path: 'MuseoArqueologicoSevilla', component:AndaluciaMuseoArqueologicoComponent},
   { path: 'MuseoArtesCostumbresSevilla', component:AndaluciaMuseoArtesCostumbresComponent},
-  { path: 'AyuntamientoSevilla', component:AndaluciaAyuntamientoSevillaComponent}
+  { path: 'AyuntamientoSevilla', component:AndaluciaAyuntamientoSevillaComponent},
+  { path: 'PalacioDuenasSevilla', component:AndaluciaSevillaPalacioDuenasComponent}
 ];
 
 @NgModule({
