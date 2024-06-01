@@ -17,6 +17,7 @@ import { AndaluciaSevillaPalacioDuenasComponent } from './Monumentos-Sevilla/and
 import { AndaluciaSevillaCasaSalinasComponent } from './Monumentos-Sevilla/andalucia-sevilla-casa-salinas/andalucia-sevilla-casa-salinas.component';
 import { AndaluciaSevillaPalacioMarquesesAlgabaComponent } from './Monumentos-Sevilla/andalucia-sevilla-palacio-marqueses-algaba/andalucia-sevilla-palacio-marqueses-algaba.component';
 import { AndaluciaSevillaMuseoBellasArtesComponent } from './Monumentos-Sevilla/andalucia-sevilla-museo-bellas-artes/andalucia-sevilla-museo-bellas-artes.component';
+import { AndaluciaSevillaMuseoBaileFlamencoComponent } from './Monumentos-Sevilla/andalucia-sevilla-museo-baile-flamenco/andalucia-sevilla-museo-baile-flamenco.component';
 import { SevillaMenuComponent } from './sevilla-menu/sevilla-menu.component';
 
 const routes: Routes = [
@@ -37,7 +38,8 @@ const routes: Routes = [
   { path: 'PalacioDuenasSevilla', component:AndaluciaSevillaPalacioDuenasComponent},
   { path: 'CasaSalinasSevilla', component:AndaluciaSevillaCasaSalinasComponent},
   { path: 'PalacioMarquesesAlgabaSevilla', component:AndaluciaSevillaPalacioMarquesesAlgabaComponent},
-  { path: 'MuseoBellasArtesSevilla', component:AndaluciaSevillaMuseoBellasArtesComponent}
+  { path: 'MuseoBellasArtesSevilla', component:AndaluciaSevillaMuseoBellasArtesComponent},
+  { path: 'MuseoBaileFlamencoSevilla', component:AndaluciaSevillaMuseoBaileFlamencoComponent}
 ];
 
 @NgModule({
