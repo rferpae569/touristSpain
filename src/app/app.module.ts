@@ -22,6 +22,7 @@ import { AndaluciaSevillaCasaSalinasComponent } from './Monumentos-Sevilla/andal
 import { AndaluciaSevillaPalacioMarquesesAlgabaComponent } from './Monumentos-Sevilla/andalucia-sevilla-palacio-marqueses-algaba/andalucia-sevilla-palacio-marqueses-algaba.component';
 import { AndaluciaSevillaMuseoBellasArtesComponent } from './Monumentos-Sevilla/andalucia-sevilla-museo-bellas-artes/andalucia-sevilla-museo-bellas-artes.component';
 import { AndaluciaSevillaMuseoBaileFlamencoComponent } from './Monumentos-Sevilla/andalucia-sevilla-museo-baile-flamenco/andalucia-sevilla-museo-baile-flamenco.component';
+// import { AndaluciaSevillaPabellonNavegacionComponent } from './Monumentos-Sevilla/andalucia-sevilla-pabellon-navegacion/andalucia-sevilla-pabellon-navegacion.component';
 
 @NgModule({
   declarations: [
@@ -44,7 +45,8 @@ import { AndaluciaSevillaMuseoBaileFlamencoComponent } from './Monumentos-Sevill
     AndaluciaSevillaCasaSalinasComponent,
     AndaluciaSevillaPalacioMarquesesAlgabaComponent,
     AndaluciaSevillaMuseoBellasArtesComponent,
-    AndaluciaSevillaMuseoBaileFlamencoComponent
+    AndaluciaSevillaMuseoBaileFlamencoComponent,
+    AndaluciaSevillaPabellonNavegacionComponent
   ],
   imports: [
     BrowserModule,
