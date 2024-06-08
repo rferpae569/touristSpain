@@ -25,6 +25,7 @@ import { SevillaMenuComponent } from './sevilla-menu/sevilla-menu.component';
 
 const routes: Routes = [
   { path: '', component:MapaEspanaComponent},
+  { path: 'SevillaMenu', component:SevillaMenuComponent},
   { path: 'CatedralGiraldaSevilla', component: AndaluciaSevillaCatedralGiraldaComponent },
   { path: 'RealAlcazarSevilla', component: AndaluciaSevillaRealAlcazarComponent } ,
   { path: 'PlazaEspanaSevilla', component: AndaluciaSevillaPlazaEspanaComponent },
