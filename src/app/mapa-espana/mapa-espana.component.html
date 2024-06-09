@@ -1,3 +1,13 @@
+<header class="header">
+  <div class="logo">
+    TouristSpain
+  </div>
+  <nav class="nav-links">
+    <a routerLink="/" routerLinkActive="active">Home</a>
+    <a routerLink="/about" routerLinkActive="active">About</a>
+    <a routerLink="/contact" routerLinkActive="active">Contact</a>
+  </nav>
+</header>
 <body>
   <div class="bg">
     <svg
@@ -377,6 +387,7 @@
       </div>
     </div>
     <div class="point" id="andalucia">
+      <a [routerLink]="['/SevillaMenu']">
       <svg
         version="1.1"
         id="Layer_1"
@@ -404,6 +415,7 @@
           </div>
         </div>
       </div>
+      </a>
     </div>
     <div class="point" id="castilla_leon">
       <svg
@@ -848,3 +860,21 @@
   </div>
   <script src="js/main.js"></script>
 </body>
+<!-- Pie de página -->
+<footer class="footer">
+  <div class="container">
+    <p>&copy; 2024 Todos los derechos reservados - TouristSpain</p>
+    <br />
+    <img
+      class="mapaEspaña"
+      src="../../assets/img/iconoslogos/MapaEspaña.webp"
+      alt="MapaEspana"
+    />
+    <ul class="footer-links">
+      <li><a href="#">Aviso Legal</a></li>
+      <li><a href="#">Política de Privacidad</a></li>
+      <li><a href="#">Términos de Servicio</a></li>
+    </ul>
+  </div>
+</footer>
+<!--Fin de Pie de pagina-->

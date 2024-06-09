@@ -34,12 +34,12 @@ ol {
 
 .bg {
   width: 90rem;
-  height: 67rem;
-  margin: 2rem auto;
+  // height: 67rem;
+  // margin: 2rem auto;
   position: relative;
-  box-shadow: 0 1rem 3rem -0.4rem rgba(88, 67, 128, 0.6);
-  border-radius: 1rem;
-  margin-bottom: 5rem;
+  // box-shadow: 0 1rem 3rem -0.4rem rgba(88, 67, 128, 0.6);
+  // border-radius: 1rem;
+  // margin-bottom: 5rem;
 }
 
 .point {
@@ -295,7 +295,7 @@ ol {
 
 #galicia {
   top: 8.5rem;
-  left: 22.5rem;
+  left: 25.5rem;
 }
 
 #galicia::after {
@@ -358,7 +358,7 @@ ol {
 
 #canarias {
   top: 59.5rem;
-  left: 13rem;
+  left: 25.5rem;
 }
 
 #canarias::after {
@@ -491,4 +491,74 @@ ol {
 
 .st5 {
   fill: #ffffff;
+}
+
+.header {
+  background-color: #345; /* Change this to your desired background color */
+  color: #fff; /* Change this to your desired text color */
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px; /* Adjust font size as needed */
+}
+
+.nav-links a {
+  color: #fff; /* Change this to your desired link color */
+  text-decoration: none;
+  margin-left: 20px; /* Adjust spacing between links */
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+.nav-links .active {
+  font-weight: bold; /* Style for the active link */
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.footer p {
+  margin: 0;
+  text-align: center;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.footer-links li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.footer-links li:last-child {
+  margin-right: 0;
+}
+
+.footer-links li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-links li a:hover {
+  text-decoration: underline;
+}
+
+.mapaEspaña {
+  width: 300px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 15px;
 }
