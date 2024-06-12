@@ -22,10 +22,12 @@ import { AndaluciaSevillaMuseoBaileFlamencoComponent } from './Monumentos-Sevill
 import { AndaluciaSevillaPabellonNavegacionComponent } from './Monumentos-Sevilla/andalucia-sevilla-pabellon-navegacion/andalucia-sevilla-pabellon-navegacion.component';
 import { AndaluciaSevillaAcuarioComponent } from './Monumentos-Sevilla/andalucia-sevilla-acuario/andalucia-sevilla-acuario.component';
 import { SevillaMenuComponent } from './sevilla-menu/sevilla-menu.component';
+import { PoliticaprivacidadComponent } from './politicaprivacidad/politicaprivacidad.component';
 
 const routes: Routes = [
   { path: '', component:MapaEspanaComponent},
   { path: 'SevillaMenu', component:SevillaMenuComponent},
+  // { path: 'PoliticaPrivacidad', component:PoliticaprivacidadComponent},
   { path: 'CatedralGiraldaSevilla', component: AndaluciaSevillaCatedralGiraldaComponent },
   { path: 'RealAlcazarSevilla', component: AndaluciaSevillaRealAlcazarComponent } ,
   { path: 'PlazaEspanaSevilla', component: AndaluciaSevillaPlazaEspanaComponent },
