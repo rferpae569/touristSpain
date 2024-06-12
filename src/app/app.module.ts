@@ -25,7 +25,7 @@ import { AndaluciaSevillaMuseoBaileFlamencoComponent } from './Monumentos-Sevill
 import { AndaluciaSevillaPabellonNavegacionComponent } from './Monumentos-Sevilla/andalucia-sevilla-pabellon-navegacion/andalucia-sevilla-pabellon-navegacion.component';
 import { AndaluciaSevillaAcuarioComponent } from './Monumentos-Sevilla/andalucia-sevilla-acuario/andalucia-sevilla-acuario.component';
 import { MapaEspanaComponent } from './mapa-espana/mapa-espana.component';
-// import { PoliticaprivacidadComponent } from './politicaprivacidad/politicaprivacidad.component';
+import { PoliticaprivacidadComponent } from './politicaprivacidad/politicaprivacidad.component';
 
 @NgModule({
   declarations: [
