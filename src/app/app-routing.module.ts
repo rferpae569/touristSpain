@@ -27,7 +27,7 @@ import { PoliticaprivacidadComponent } from './politicaprivacidad/politicaprivac
 const routes: Routes = [
   { path: '', component:MapaEspanaComponent},
   { path: 'SevillaMenu', component:SevillaMenuComponent},
-  // { path: 'PoliticaPrivacidad', component:PoliticaprivacidadComponent},
+  { path: 'PoliticaPrivacidad', component:PoliticaprivacidadComponent},
   { path: 'CatedralGiraldaSevilla', component: AndaluciaSevillaCatedralGiraldaComponent },
   { path: 'RealAlcazarSevilla', component: AndaluciaSevillaRealAlcazarComponent } ,
   { path: 'PlazaEspanaSevilla', component: AndaluciaSevillaPlazaEspanaComponent },
