@@ -34,12 +34,7 @@ ol {
 
 .bg {
   width: 90rem;
-  // height: 67rem;
-  // margin: 2rem auto;
   position: relative;
-  // box-shadow: 0 1rem 3rem -0.4rem rgba(88, 67, 128, 0.6);
-  // border-radius: 1rem;
-  // margin-bottom: 5rem;
 }
 
 .point {
@@ -494,8 +489,8 @@ ol {
 }
 
 .header {
-  background-color: #345; /* Change this to your desired background color */
-  color: #fff; /* Change this to your desired text color */
+  background-color: #333;
+  color: #fff; 
   padding: 20px;
   display: flex;
   justify-content: space-between;
@@ -503,13 +498,13 @@ ol {
 }
 
 .logo {
-  font-size: 24px; /* Adjust font size as needed */
+  font-size: 24px;
 }
 
 .nav-links a {
-  color: #fff; /* Change this to your desired link color */
+  color: #fff;
   text-decoration: none;
-  margin-left: 20px; /* Adjust spacing between links */
+  margin-left: 20px;
 }
 
 .nav-links a:hover {
@@ -517,7 +512,7 @@ ol {
 }
 
 .nav-links .active {
-  font-weight: bold; /* Style for the active link */
+  font-weight: bold;
 }
 
 .footer {
@@ -561,4 +556,15 @@ ol {
   display: block;
   margin: 0 auto;
   border-radius: 15px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-icon {
+  width: 85px;
+  height: auto;
+  margin-right: 10px; 
 }
