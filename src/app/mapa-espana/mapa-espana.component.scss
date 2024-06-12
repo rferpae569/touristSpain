@@ -22,6 +22,11 @@ a {
   transition: all 0.5s ease-out;
 }
 
+.enlaces{
+  text-decoration: underline;
+  color: rgb(27, 119, 224);
+}
+
 ul,
 ol {
   list-style: none;
@@ -567,4 +572,60 @@ ol {
   width: 85px;
   height: auto;
   margin-right: 10px; 
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}
+
+.blurred {
+  filter: blur(5px);
+  pointer-events: none;
+}
+
+.cookie-consent {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+.cookie-consent p {
+  margin: 0 0 10px 0;
+}
+
+.cookie-consent button {
+  background-color: #f44336;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.cookie-consent button:hover {
+  background-color: #e53935;
+}
+
+.cookie-consent button:nth-child(2) {
+  background-color: #4CAF50;
+}
+
+.cookie-consent button:nth-child(2):hover {
+  background-color: #45a049;
 }

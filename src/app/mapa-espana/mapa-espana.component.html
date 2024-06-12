@@ -5,15 +5,21 @@
     TouristSpain
   </div>
   <nav class="nav-links">
-    <a routerLink="/" routerLinkActive="active">Inicio</a>
+    <a [routerLink]="['']" routerLinkActive="active">Inicio</a>
     <a routerLink="/about" routerLinkActive="active">Sobre nosotros</a>
     <a routerLink="/contact" routerLinkActive="active">Contactanos</a>
   </nav>
 </header>
 <!--Fin de Cabecera-->
 <body>
+  <div class="cookie-consent" *ngIf="showCookieConsent">
+    <p>Esta página utiliza cookies para mejorar tu experiencia. Al continuar navegando, aceptas el uso de cookies. Puedes obtener más información sobre cómo utilizamos las cookies en nuestra <a class="enlaces" href="/politica-cookies">política de cookies</a>.</p>
+    <button (click)="acceptCookies()">Aceptar</button>
+    <button (click)="rejectCookies()">Rechazar</button>
+  </div>
   <!--Mapa de España, puntos y textos-->
-  <div class="bg">
+  <div class="overlay" *ngIf="showCookieConsent"></div>
+  <div class="bg" [class.blurred]="showCookieConsent">
     <svg
       version="1.1"
       id="Layer_1"
