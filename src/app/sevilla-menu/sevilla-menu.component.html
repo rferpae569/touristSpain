@@ -2,86 +2,95 @@
   <!--Contenedor-->
   <div class="container">
     <!--Cabecera-->
-    <header class="encabezado">
-      <div class="slider-frame">
-        <ul>
-          <li>
-            <img
-              src="../../assets/img/Monumentos/Sevilla/CatedralGiralda/CatedralSevilla2.jpg"
-              alt="CatedralSevilla"
-            />
-          </li>
-          <li>
-            <img
-              src="../../assets/img/Monumentos/Sevilla/RealAlcazar/realalcazardesevilla1.jpg"
-              alt="RealAlcazarSevilla"
-            />
-          </li>
-          <li>
-            <img
-              src="../../assets/img/Monumentos/Sevilla/PlazaEspaña/PlazaEspañaSevilla1.jpg"
-              alt="PlazaEspanaSevilla"
-            />
-          </li>
-          <li>
-            <img
-              src="../../assets/img/Monumentos/Sevilla/La Maestranza/LaMaestranza.jpg"
-              alt="MaestranzaSevilla"
-            />
-          </li>
-          <li>
-            <img
-              src="../../assets/img/Monumentos/Sevilla/TorreOro/TorreOro.jpg"
-              alt="TorreOroSevilla"
-            />
-          </li>
-          <li>
-            <img
-              src="../../assets/img/Monumentos/Sevilla/PuenteTriana/PuenteTriana.jpg"
-              alt="PuenteTrianaSevilla"
-            />
-          </li>
-          <li>
-            <img
-              src="../../assets/img/Monumentos/Sevilla/LasSetas/Setas1.jpg"
-              alt="LaSetaSevilla"
-            />
-          </li>
-          <li>
-            <img
-              src="../../assets/img/Monumentos/Sevilla/ArchivoIndias/ArchivoIndias1.jpg"
-              alt="ArchivoIndias"
-            />
-          </li>
-          <li>
-            <img
-              src="../../assets/img/Monumentos/Sevilla/AyuntamientoSevilla/AyuntamientoSevilla.jpg"
-              alt="AyuntamientoSevilla"
-            />
-          </li>
-        </ul>
+    <header class="header">
+      <div class="logo">
+        <img src="../../assets/img/banderas/BanderaEspana.jpg" alt="LogoTouristSpain" class="logo-icon">
+        TouristSpain
       </div>
-      <div class="provincias-andaluzas">
-        <img
-          src="../../assets/img/banderas/BanderaAndalucia.jpg"
-          class="imagen-izquierda"
-        />
-        <ul class="provincias-list">
-          <li><a href="#">Almería</a></li>
-          <li><a href="#">Cádiz</a></li>
-          <li><a href="#">Córdoba</a></li>
-          <li><a href="#">Granada</a></li>
-          <li><a href="#">Huelva</a></li>
-          <li><a href="#">Jaén</a></li>
-          <li><a href="#">Málaga</a></li>
-          <li><a href="#">Sevilla</a></li>
-        </ul>
-        <img
-          src="../../assets/img/banderas/BanderaSevilla.jpg"
-          class="imagen-derecha"
-        />
-      </div>
+      <nav class="nav-links">
+        <a [routerLink]="['']" routerLinkActive="active">Inicio</a>
+        <a routerLink="/about" routerLinkActive="active">Sobre nosotros</a>
+        <a routerLink="/contact" routerLinkActive="active">Contactanos</a>
+      </nav>
     </header>
+    <div class="slider-frame">
+      <ul>
+        <li>
+          <img
+            src="../../assets/img/Monumentos/Sevilla/CatedralGiralda/CatedralSevilla2.jpg"
+            alt="CatedralSevilla"
+          />
+        </li>
+        <li>
+          <img
+            src="../../assets/img/Monumentos/Sevilla/RealAlcazar/realalcazardesevilla1.jpg"
+            alt="RealAlcazarSevilla"
+          />
+        </li>
+        <li>
+          <img
+            src="../../assets/img/Monumentos/Sevilla/PlazaEspaña/PlazaEspañaSevilla1.jpg"
+            alt="PlazaEspanaSevilla"
+          />
+        </li>
+        <li>
+          <img
+            src="../../assets/img/Monumentos/Sevilla/La Maestranza/LaMaestranza.jpg"
+            alt="MaestranzaSevilla"
+          />
+        </li>
+        <li>
+          <img
+            src="../../assets/img/Monumentos/Sevilla/TorreOro/TorreOro.jpg"
+            alt="TorreOroSevilla"
+          />
+        </li>
+        <li>
+          <img
+            src="../../assets/img/Monumentos/Sevilla/PuenteTriana/PuenteTriana.jpg"
+            alt="PuenteTrianaSevilla"
+          />
+        </li>
+        <li>
+          <img
+            src="../../assets/img/Monumentos/Sevilla/LasSetas/Setas1.jpg"
+            alt="LaSetaSevilla"
+          />
+        </li>
+        <li>
+          <img
+            src="../../assets/img/Monumentos/Sevilla/ArchivoIndias/ArchivoIndias1.jpg"
+            alt="ArchivoIndias"
+          />
+        </li>
+        <li>
+          <img
+            src="../../assets/img/Monumentos/Sevilla/AyuntamientoSevilla/AyuntamientoSevilla.jpg"
+            alt="AyuntamientoSevilla"
+          />
+        </li>
+      </ul>
+    </div>
+    <div class="provincias-andaluzas">
+      <img
+        src="../../assets/img/banderas/BanderaAndalucia.jpg"
+        class="imagen-izquierda"
+      />
+      <ul class="provincias-list">
+        <li><a href="#">Almería</a></li>
+        <li><a href="#">Cádiz</a></li>
+        <li><a href="#">Córdoba</a></li>
+        <li><a href="#">Granada</a></li>
+        <li><a href="#">Huelva</a></li>
+        <li><a href="#">Jaén</a></li>
+        <li><a href="#">Málaga</a></li>
+        <li><a href="#">Sevilla</a></li>
+      </ul>
+      <img
+        src="../../assets/img/banderas/BanderaSevilla.jpg"
+        class="imagen-derecha"
+      />
+    </div>
     <!--Fin de cabecera-->
     <div class="Monumentos-sevilla">
       <h1 class="titulo">Monumentos de Sevilla</h1>
