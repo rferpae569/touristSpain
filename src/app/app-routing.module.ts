@@ -24,7 +24,7 @@ import { AndaluciaSevillaAcuarioComponent } from './Monumentos-Sevilla/andalucia
 import { SevillaMenuComponent } from './sevilla-menu/sevilla-menu.component';
 import { PoliticaprivacidadComponent } from './politicaprivacidad/politicaprivacidad.component';
 import { AvisoLegalComponent } from './aviso-legal/aviso-legal.component';
-// import { PoliticaCookiesComponent } from './politica-cookies/politica-cookies.component';
+import { PoliticaCookiesComponent } from './politica-cookies/politica-cookies.component';
 
 const routes: Routes = [
   { path: '', component:MapaEspanaComponent},
