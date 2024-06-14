@@ -28,7 +28,7 @@ import { MapaEspanaComponent } from './mapa-espana/mapa-espana.component';
 import { PoliticaprivacidadComponent } from './politicaprivacidad/politicaprivacidad.component';
 import { AvisoLegalComponent } from './aviso-legal/aviso-legal.component';
 import { PoliticaCookiesComponent } from './politica-cookies/politica-cookies.component';
-// import { TerminosServicioComponent } from './terminos-servicio/terminos-servicio.component';
+import { TerminosServicioComponent } from './terminos-servicio/terminos-servicio.component';
 
 @NgModule({
   declarations: [
