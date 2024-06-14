@@ -23,7 +23,7 @@ import { AndaluciaSevillaPabellonNavegacionComponent } from './Monumentos-Sevill
 import { AndaluciaSevillaAcuarioComponent } from './Monumentos-Sevilla/andalucia-sevilla-acuario/andalucia-sevilla-acuario.component';
 import { SevillaMenuComponent } from './sevilla-menu/sevilla-menu.component';
 import { PoliticaprivacidadComponent } from './politicaprivacidad/politicaprivacidad.component';
-// import { AvisoLegalComponent } from './aviso-legal/aviso-legal.component';
+import { AvisoLegalComponent } from './aviso-legal/aviso-legal.component';
 
 const routes: Routes = [
   { path: '', component:MapaEspanaComponent},
