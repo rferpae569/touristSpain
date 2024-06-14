@@ -27,6 +27,7 @@ import { AndaluciaSevillaAcuarioComponent } from './Monumentos-Sevilla/andalucia
 import { MapaEspanaComponent } from './mapa-espana/mapa-espana.component';
 import { PoliticaprivacidadComponent } from './politicaprivacidad/politicaprivacidad.component';
 import { AvisoLegalComponent } from './aviso-legal/aviso-legal.component';
+// import { PoliticaCookiesComponent } from './politica-cookies/politica-cookies.component';
 
 @NgModule({
   declarations: [
@@ -54,7 +55,8 @@ import { AvisoLegalComponent } from './aviso-legal/aviso-legal.component';
     AndaluciaSevillaAcuarioComponent,
     MapaEspanaComponent,
     PoliticaprivacidadComponent,
-    AvisoLegalComponent
+    AvisoLegalComponent,
+    PoliticaCookiesComponent
   ],
   imports: [
     BrowserModule,
