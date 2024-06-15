@@ -1,39 +1,52 @@
 <div class="background-image">
   <div class="container">
     <!--Cabecera-->
-    <header class="encabezado">
-      <div class="slider-frame">
-        <ul>
-          <li>
-            <img
-              src="../../../assets/img/Monumentos/Sevilla/PalacioMarquesesAlgaba/MarquesesAlgaba.jpg"
-              alt="MarquesesAlgaba"
-            />
-          </li>
-        </ul>
-      </div>
-      <div class="provincias-andaluzas">
+    <header class="header">
+      <div class="logo">
         <img
-          src="../../assets/img/banderas/BanderaAndalucia.jpg"
-          class="imagen-izquierda"
+          src="../../assets/img/banderas/BanderaEspana.jpg"
+          alt="LogoTouristSpain"
+          class="logo-icon"
         />
-        <ul class="provincias-list">
-          <li><a href="#">Almería</a></li>
-          <li><a href="#">Cádiz</a></li>
-          <li><a href="#">Córdoba</a></li>
-          <li><a href="#">Granada</a></li>
-          <li><a href="#">Huelva</a></li>
-          <li><a href="#">Jaén</a></li>
-          <li><a href="#">Málaga</a></li>
-          <li><a href="#">Sevilla</a></li>
-        </ul>
-        <img
-          src="../../assets/img/banderas/BanderaSevilla.jpg"
-          class="imagen-derecha"
-        />
+        TouristSpain
       </div>
+      <nav class="nav-links">
+        <a [routerLink]="['']" routerLinkActive="active">Inicio</a>
+        <a routerLink="/about" routerLinkActive="active">Sobre nosotros</a>
+        <a routerLink="/contact" routerLinkActive="active">Contactanos</a>
+      </nav>
     </header>
     <!--Fin de Cabecera-->
+    <div class="slider-frame">
+      <ul>
+        <li>
+          <img
+            src="../../../assets/img/Monumentos/Sevilla/PalacioMarquesesAlgaba/MarquesesAlgaba.jpg"
+            alt="MarquesesAlgaba"
+          />
+        </li>
+      </ul>
+    </div>
+    <div class="provincias-andaluzas">
+      <img
+        src="../../assets/img/banderas/BanderaAndalucia.jpg"
+        class="imagen-izquierda"
+      />
+      <ul class="provincias-list">
+        <li><a href="#">Almería</a></li>
+        <li><a href="#">Cádiz</a></li>
+        <li><a href="#">Córdoba</a></li>
+        <li><a href="#">Granada</a></li>
+        <li><a href="#">Huelva</a></li>
+        <li><a href="#">Jaén</a></li>
+        <li><a href="#">Málaga</a></li>
+        <li><a href="#">Sevilla</a></li>
+      </ul>
+      <img
+        src="../../assets/img/banderas/BanderaSevilla.jpg"
+        class="imagen-derecha"
+      />
+    </div>
     <div class="Monumentos-sevilla">
       <h1 class="titulo">Monumentos de Sevilla</h1>
       <div class="row">
@@ -100,8 +113,12 @@
       />
       <ul class="footer-links">
         <li><a [routerLink]="['../AvisoLegal']">Aviso Legal</a></li>
-        <li><a [routerLink]="['../PoliticaPrivacidad']">Política de Privacidad</a></li>
-        <li><a [routerLink]="['../TerminoServicios']">Términos de Servicio</a></li>
+        <li>
+          <a [routerLink]="['../PoliticaPrivacidad']">Política de Privacidad</a>
+        </li>
+        <li>
+          <a [routerLink]="['../TerminoServicios']">Términos de Servicio</a>
+        </li>
       </ul>
     </div>
   </footer>

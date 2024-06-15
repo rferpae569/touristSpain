@@ -1,3 +1,42 @@
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 103.5%;
+}
+
+.logo {
+  font-size: 24px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+.nav-links .active {
+  font-weight: bold;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-icon {
+  width: 85px;
+  height: auto;
+  margin-right: 10px;
+}
+
 .provincias-andaluzas {
   background-color: #006847;
   color: #fff;
@@ -131,7 +170,7 @@
 
 .informacion-visita {
   position: absolute;
-  top: 365vh;
+  top: 384.4vh;
   background-color: rgba(255, 255, 255, 0.8);
   padding: 20px;
   border-radius: 10px;
