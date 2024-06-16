@@ -26,6 +26,7 @@ import { PoliticaprivacidadComponent } from './politicaprivacidad/politicaprivac
 import { AvisoLegalComponent } from './aviso-legal/aviso-legal.component';
 import { PoliticaCookiesComponent } from './politica-cookies/politica-cookies.component';
 import { TerminosServicioComponent } from './terminos-servicio/terminos-servicio.component';
+// import { SobreNosotrosComponent } from './sobre-nosotros/sobre-nosotros.component';
 
 const routes: Routes = [
   { path: '', component:MapaEspanaComponent},
@@ -34,6 +35,7 @@ const routes: Routes = [
   { path: 'AvisoLegal', component:AvisoLegalComponent},
   { path: 'PoliticaCookies', component:PoliticaCookiesComponent},
   { path: 'TerminoServicios', component:TerminosServicioComponent},
+  { path: 'SobreNosotros', component:SobreNosotrosComponent},
   { path: 'CatedralGiraldaSevilla', component: AndaluciaSevillaCatedralGiraldaComponent },
   { path: 'RealAlcazarSevilla', component: AndaluciaSevillaRealAlcazarComponent } ,
   { path: 'PlazaEspanaSevilla', component: AndaluciaSevillaPlazaEspanaComponent },
