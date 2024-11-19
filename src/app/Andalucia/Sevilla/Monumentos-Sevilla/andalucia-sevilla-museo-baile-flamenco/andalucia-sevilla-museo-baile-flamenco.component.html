@@ -1,0 +1,136 @@
+<div class="background-image">
+  <div class="container">
+    <!--Cabecera-->
+    <header class="header">
+      <div class="logo">
+        <img
+          src="../../../../../assets/img/banderas/BanderaEspana.jpg"
+          alt="LogoTouristSpain"
+          class="logo-icon"
+        />
+        TouristSpain
+      </div>
+      <nav class="nav-links">
+        <a [routerLink]="['']" routerLinkActive="active">Inicio</a>
+        <a [routerLink]="['../../../../SobreNosotros']" routerLinkActive="active">Sobre nosotros</a>
+        <a [routerLink]="['../../../../Contactanos']" routerLinkActive="active">Contactanos</a>
+      </nav>
+    </header>
+    <!--Fin de Cabecera-->
+    <div class="slider-frame">
+      <ul>
+        <li>
+          <img
+            src="../../../../../assets/img/Monumentos/Sevilla/MuseoFlamenco/MuseoFlamenco.jpg"
+            alt="MuseoFlamenco"
+          />
+        </li>
+      </ul>
+    </div>
+    <div class="provincias-andaluzas">
+      <img
+        src="../../../../../assets/img/banderas/BanderaAndalucia.jpg"
+        class="imagen-izquierda"
+      />
+      <ul class="provincias-list">
+        <li><a href="#">Almería</a></li>
+        <li><a href="#">Cádiz</a></li>
+        <li><a href="#">Córdoba</a></li>
+        <li><a href="#">Granada</a></li>
+        <li><a href="#">Huelva</a></li>
+        <li><a href="#">Jaén</a></li>
+        <li><a href="#">Málaga</a></li>
+        <li><a href="#">Sevilla</a></li>
+      </ul>
+      <img
+        src="../../../../../assets/img/banderas/BanderaSevilla.jpg"
+        class="imagen-derecha"
+      />
+    </div>
+    <div class="Monumentos-sevilla">
+      <h1 class="titulo">Monumentos de Sevilla</h1>
+      <div class="row">
+        <!--Informacion Monumentos-->
+        <div class="column">
+          <div class="module">
+            <div class="MuseoFlamenco-Informacion">
+              <h1 class="module_header titulo" id="MuseoFlamenco_header">
+                Museo del Baile Flamenco
+              </h1>
+              <h2 class="titulo">Arte puro en movimiento</h2>
+              <p class="style-texto">
+                La práctica totalidad del Museo, está dedicado a una de las
+                expresiones artísticas que más arraigo e importancia ha tenido
+                en la cultura de Andalucía, como es el baile Flamenco. Es el
+                primer, y único museo en el mundo conocido hasta la fecha,
+                dedicado a dicho arte. Visitantes de todas las partes del mundo,
+                vienen a conocer de cerca los orígenes y evolución de una
+                tradición y cultura centenaria. La creación del Museo se debe a
+                la iniciativa de la bailaora sevillana Cristina Hoyos.
+              </p>
+              <p class="style-texto">
+                Tras unas obras de remodelación sobre un edificio que data del
+                siglo XVIII, el Museo se inaugura el día 7 de abril de 2006. Se
+                compone de un espacio divido en cuatro plantas, cuyo sótano es
+                también un elemento característico, y en donde se ha conservado
+                el ambiente inicial del edificio. En la planta baja, se
+                encuentra un típico patio andaluz de estilo ecijano, que es de
+                los pocos que quedan en Sevilla. En él, se ofrecen espectáculos
+                de Flamenco, y de otros estilos y variantes que tengan algún
+                tipo de vínculo con el baile Flamenco.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mapa-ubicacion">
+        <iframe
+          width="425"
+          height="350"
+          src="https://www.openstreetmap.org/export/embed.html?bbox=-5.992494821548463%2C37.388325034288755%2C-5.990440249443054%2C37.389573859018206&amp;layer=mapnik"
+          style="border: 1px solid black"
+        ></iframe
+        ><br />
+      </div>
+      <div class="informacion-visita">
+        <h2>
+          <img
+            src="../../../../../assets/img/iconoslogos/Informacion.png"
+            alt="Informacion"
+          />
+          <i></i> DIRECCION Y DATOS DE CONTACTO
+        </h2>
+        <p><strong>Direccion:</strong> Calle de Manuel Rojas Marcos, 3</p>
+        <p>41004 Sevilla (Andalucía)</p>
+        <p>
+          <strong>Web:</strong
+          ><a href="museodelbaileflamenco.com"> museodelbaileflamenco.com</a>
+        </p>
+        <p><strong>Tlf:</strong> +34 954 34 03 11</p>
+      </div>
+    </div>
+  </div>
+  <!--Fin de informacion Monumentos-->
+  <!-- Pie de página -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2024 Todos los derechos reservados - TouristSpain</p>
+      <br />
+      <img
+        class="mapaEspaña"
+        src="../../../../../assets/img/iconoslogos/MapaEspaña.webp"
+        alt="MapaEspana"
+      />
+      <ul class="footer-links">
+        <li><a [routerLink]="['../../../../AvisoLegal']">Aviso Legal</a></li>
+        <li>
+          <a [routerLink]="['../../../../PoliticaPrivacidad']">Política de Privacidad</a>
+        </li>
+        <li>
+          <a [routerLink]="['../../../../TerminoServicios']">Términos de Servicio</a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+  <!--Fin de Pie de pagina-->
+</div>
