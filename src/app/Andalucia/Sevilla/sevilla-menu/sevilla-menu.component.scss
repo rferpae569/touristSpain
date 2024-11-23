@@ -134,15 +134,13 @@
   object-fit: cover;
 }
 
-.Monumentos-sevilla .slider,
-.Restaurantes-sevilla .slider {
+.Monumentos-sevilla .slider{
   position: relative;
   width: 100%;
   overflow: hidden;
 }
 
-.Monumentos-sevilla .slides,
-.Restaurantes-sevilla .slides {
+.Monumentos-sevilla .slides {
   display: flex;
   transition: transform 0.5s ease;
   font-family: "Roboto", sans-serif;
@@ -150,8 +148,7 @@
   text-align: justify;
 }
 
-.Monumentos-sevilla .slide,
-.Restaurantes-sevilla .slide {
+.Monumentos-sevilla .slide {
   flex: 0 0 calc(25% - 20px);
   margin: 0 10px;
   background-color: #bebaba;
@@ -160,13 +157,11 @@
   overflow: hidden;
 }
 
-.Monumentos-sevilla,
-.Restaurantes-sevilla {
+.Monumentos-sevilla {
   position: relative;
 }
 
-.Monumentos-sevilla .navigation,
-.Restaurantes-sevilla .navigation {
+.Monumentos-sevilla .navigation {
   position: absolute;
   bottom: 0;
   left: 50%;
@@ -174,15 +169,13 @@
   z-index: 2;
 }
 
-.Monumentos-sevilla .slide img,
-.Restaurantes-sevilla .slide img {
+.Monumentos-sevilla .slide img {
   width: 100%;
   height: auto;
   border-radius: 10px;
 }
 
-.Monumentos-sevilla .navigation,
-.Restaurantes-sevilla .navigation {
+.Monumentos-sevilla .navigation {
   position: relative;
   bottom: 10px;
   left: 50%;
@@ -191,8 +184,7 @@
   text-align: center;
 }
 
-.Monumentos-sevilla .navigation label,
-.Restaurantes-sevilla .navigation label {
+.Monumentos-sevilla .navigation label {
   cursor: pointer;
   display: inline-block;
   width: 15px;
@@ -202,8 +194,7 @@
   margin: 0 5px;
 }
 
-.Monumentos-sevilla .navigation label:hover,
-.Restaurantes-sevilla .navigation label:hover {
+.Monumentos-sevilla .navigation label:hover {
   background: #555;
 }
 

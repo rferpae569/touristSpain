@@ -9,17 +9,9 @@ import { AndaluciaSevillaTorreOroComponent } from './Andalucia/Sevilla/Monumento
 import { AndaluciaSevillaPuenteTrianaComponent } from './Andalucia/Sevilla/Monumentos-Sevilla/andalucia-sevilla-puente-triana/andalucia-sevilla-puente-triana.component';
 import { AndaluciaSevillaLaSetaComponent } from './Andalucia/Sevilla/Monumentos-Sevilla/andalucia-sevilla-la-seta/andalucia-sevilla-la-seta.component';
 import { AndaluciaSevillaArchivoIndiasComponent } from './Andalucia/Sevilla/Monumentos-Sevilla/andalucia-sevilla-archivo-indias/andalucia-sevilla-archivo-indias.component'; 
-import { AndaluciaSevillaHospitalCaridadComponent } from './Andalucia/Sevilla/Monumentos-Sevilla/andalucia-sevilla-hospital-caridad/andalucia-sevilla-hospital-caridad.component';
-import { AndaluciaSevillaHospitalVenerablesComponent } from './Andalucia/Sevilla/Monumentos-Sevilla/andalucia-sevilla-hospital-venerables/andalucia-sevilla-hospital-venerables.component';
-import { AndaluciaMuseoArqueologicoComponent } from './Andalucia/Sevilla/Monumentos-Sevilla/andalucia-museo-arqueologico/andalucia-museo-arqueologico.component';
-import { AndaluciaMuseoArtesCostumbresComponent } from './Andalucia/Sevilla/Monumentos-Sevilla/andalucia-museo-artes-costumbres/andalucia-museo-artes-costumbres.component';
 import { AndaluciaAyuntamientoSevillaComponent } from './Andalucia/Sevilla/Monumentos-Sevilla/andalucia-ayuntamiento-sevilla/andalucia-ayuntamiento-sevilla.component';
 import { AndaluciaSevillaPalacioDuenasComponent } from './Andalucia/Sevilla/Monumentos-Sevilla/andalucia-sevilla-palacio-duenas/andalucia-sevilla-palacio-duenas.component'; 
-import { AndaluciaSevillaCasaSalinasComponent } from './Andalucia/Sevilla/Monumentos-Sevilla/andalucia-sevilla-casa-salinas/andalucia-sevilla-casa-salinas.component'; 
-import { AndaluciaSevillaPalacioMarquesesAlgabaComponent } from './Andalucia/Sevilla/Monumentos-Sevilla/andalucia-sevilla-palacio-marqueses-algaba/andalucia-sevilla-palacio-marqueses-algaba.component'; 
 import { AndaluciaSevillaMuseoBellasArtesComponent } from './Andalucia/Sevilla/Monumentos-Sevilla/andalucia-sevilla-museo-bellas-artes/andalucia-sevilla-museo-bellas-artes.component'; 
-import { AndaluciaSevillaMuseoBaileFlamencoComponent } from './Andalucia/Sevilla/Monumentos-Sevilla/andalucia-sevilla-museo-baile-flamenco/andalucia-sevilla-museo-baile-flamenco.component';
-import { AndaluciaSevillaPabellonNavegacionComponent } from './Andalucia/Sevilla/Monumentos-Sevilla/andalucia-sevilla-pabellon-navegacion/andalucia-sevilla-pabellon-navegacion.component'; 
 import { AndaluciaSevillaAcuarioComponent } from './Andalucia/Sevilla/Monumentos-Sevilla/andalucia-sevilla-acuario/andalucia-sevilla-acuario.component';
 import { SevillaMenuComponent } from './Andalucia/Sevilla/sevilla-menu/sevilla-menu.component';
 import { PoliticaprivacidadComponent } from './politicaprivacidad/politicaprivacidad.component';
@@ -46,17 +38,9 @@ const routes: Routes = [
   { path: 'Andalucia/Sevilla/Monumentos-Sevilla/PuenteTrianaSevilla', component:AndaluciaSevillaPuenteTrianaComponent},
   { path: 'Andalucia/Sevilla/Monumentos-Sevilla/LaSetaSevilla', component:AndaluciaSevillaLaSetaComponent},
   { path: 'Andalucia/Sevilla/Monumentos-Sevilla/ArchivoIndiasSevilla', component:AndaluciaSevillaArchivoIndiasComponent},
-  { path: 'Andalucia/Sevilla/Monumentos-Sevilla/HospitalCaridadSevilla', component:AndaluciaSevillaHospitalCaridadComponent},
-  { path: 'Andalucia/Sevilla/Monumentos-Sevilla/HospitalVerenablesSevilla', component:AndaluciaSevillaHospitalVenerablesComponent},
-  { path: 'Andalucia/Sevilla/Monumentos-Sevilla/MuseoArqueologicoSevilla', component:AndaluciaMuseoArqueologicoComponent},
-  { path: 'Andalucia/Sevilla/Monumentos-Sevilla/MuseoArtesCostumbresSevilla', component:AndaluciaMuseoArtesCostumbresComponent},
   { path: 'Andalucia/Sevilla/Monumentos-Sevilla/AyuntamientoSevilla', component:AndaluciaAyuntamientoSevillaComponent},
   { path: 'Andalucia/Sevilla/Monumentos-Sevilla/PalacioDuenasSevilla', component:AndaluciaSevillaPalacioDuenasComponent},
-  { path: 'Andalucia/Sevilla/Monumentos-Sevilla/CasaSalinasSevilla', component:AndaluciaSevillaCasaSalinasComponent},
-  { path: 'Andalucia/Sevilla/Monumentos-Sevilla/PalacioMarquesesAlgabaSevilla', component:AndaluciaSevillaPalacioMarquesesAlgabaComponent},
   { path: 'Andalucia/Sevilla/Monumentos-Sevilla/MuseoBellasArtesSevilla', component:AndaluciaSevillaMuseoBellasArtesComponent},
-  { path: 'Andalucia/Sevilla/Monumentos-Sevilla/MuseoBaileFlamencoSevilla', component:AndaluciaSevillaMuseoBaileFlamencoComponent},
-  { path:'Andalucia/Sevilla/Monumentos-Sevilla/PabellonNavegacionSevilla', component:AndaluciaSevillaPabellonNavegacionComponent},
   { path:'Andalucia/Sevilla/Monumentos-Sevilla/AcuarioSevilla', component:AndaluciaSevillaAcuarioComponent}
 ];
 
