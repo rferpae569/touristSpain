@@ -1,0 +1,375 @@
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 103.5%;
+}
+
+.logo {
+  font-size: 24px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+.nav-links .active {
+  font-weight: bold;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-icon {
+  width: 85px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.provincias-andaluzas {
+  background-color: #006847;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
+  width: 103.5%;
+  margin-top: 10vh;
+  position: relative;
+}
+
+.provincias-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.provincias-list li {
+  margin: 0 10px;
+}
+
+.provincias-list a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.provincias-list a:hover {
+  background-color: #fff;
+  color: #006847;
+}
+
+.imagen-izquierda,
+.imagen-derecha {
+  position: absolute;
+  width: 100px;
+  height: auto;
+  z-index: 1;
+  border: 4px solid #ccc;
+  border-radius: 10px;
+}
+
+.imagen-izquierda {
+  left: 15px;
+  top: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.imagen-derecha {
+  right: 25px;
+  top: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.titulo {
+  font-family: "Roboto", sans-serif;
+  text-align: left;
+}
+
+.titulo::after {
+  content: "";
+  display: block;
+  border-bottom: 2px solid black;
+  margin: 0;
+  width: 28%;
+  padding-top: 5px;
+}
+
+.slider-frame {
+  width: 108.5%;
+  height: 100vh;
+  margin: 0;
+}
+
+.slider-frame ul {
+  display: flex;
+  padding: 0;
+  width: 300%;
+  margin: 0;
+}
+
+.slider-frame li {
+  width: 33.333%;
+  list-style: none;
+}
+
+.slider-frame img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.Monumentos-sevilla .slider{
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.Monumentos-sevilla .slides {
+  display: flex;
+  transition: transform 0.5s ease;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+.Monumentos-sevilla .slide {
+  flex: 0 0 calc(25% - 20px);
+  margin: 0 10px;
+  background-color: #bebaba;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+
+.Monumentos-sevilla {
+  position: relative;
+}
+
+.Monumentos-sevilla .navigation {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+
+.Monumentos-sevilla .slide img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.Monumentos-sevilla .navigation {
+  position: relative;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  text-align: center;
+}
+
+.Monumentos-sevilla .navigation label {
+  cursor: pointer;
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background: #ccc;
+  border-radius: 50%;
+  margin: 0 5px;
+}
+
+.Monumentos-sevilla .navigation label:hover {
+  background: #555;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+input[type="radio"]:checked + .slide {
+  opacity: 1;
+}
+
+#slide1:checked ~ .slides {
+  transform: translateX(0);
+}
+
+#slide2:checked ~ .slides {
+  transform: translateX(-100%);
+}
+
+#slide3:checked ~ .slides {
+  transform: translateX(-200%);
+}
+
+#slide4:checked ~ .slides {
+  transform: translateX(-300%);
+}
+
+#slide5:checked ~ .slides {
+  transform: translateX(-400%);
+}
+
+#slide6:checked ~ .slides {
+  transform: translateX(0);
+}
+
+#slide7:checked ~ .slides {
+  transform: translateX(-100%);
+}
+
+#slide8:checked ~ .slides {
+  transform: translateX(-200%);
+}
+
+#slide9:checked ~ .slides {
+  transform: translateX(-300%);
+}
+
+#slide10:checked ~ .slides {
+  transform: translateX(-400%);
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.footer p {
+  margin: 0;
+  text-align: center;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.footer-links li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.footer-links li:last-child {
+  margin-right: 0;
+}
+
+.footer-links li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-links li a:hover {
+  text-decoration: underline;
+}
+
+.mapaEspaña {
+  width: 300px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 15px;
+}
+
+.slider-frame {
+  width: 108.5%;
+  height: 100vh;
+  margin: 0;
+}
+
+.slider-frame ul {
+  display: flex;
+  padding: 0;
+  width: 2000%;
+  animation: slide 50s infinite alternate ease-in-out; 
+  margin: 0;
+}
+
+.slider-frame li {
+  width: 5%;
+  list-style: none;
+}
+
+.slider-frame img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+@keyframes slide {
+  0% {
+    margin-left: 0;
+  }
+  11.11% {
+    margin-left: 0;
+  }
+  13.33% {
+    margin-left: -100%;
+  }
+  22.22% {
+    margin-left: -100%;
+  }
+  24.44% {
+    margin-left: -200%;
+  }
+  33.33% {
+    margin-left: -200%;
+  }
+  35.55% {
+    margin-left: -300%;
+  }
+  44.44% {
+    margin-left: -300%;
+  }
+  46.66% {
+    margin-left: -400%;
+  }
+  55.55% {
+    margin-left: -400%;
+  }
+  57.77% {
+    margin-left: -500%;
+  }
+  66.66% {
+    margin-left: -500%;
+  }
+  68.88% {
+    margin-left: -600%;
+  }
+  77.77% {
+    margin-left: -600%;
+  }
+  80% {
+    margin-left: -700%;
+  }
+  88.88% {
+    margin-left: -700%;
+  }
+  91.11% {
+    margin-left: -800%;
+  }
+  100% {
+    margin-left: -800%;
+  }
+}
+
+
+

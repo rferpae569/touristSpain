@@ -1,0 +1,145 @@
+<div class="background-image">
+  <div class="container">
+    <!--Cabecera-->
+    <header class="header">
+      <div class="logo">
+        <img
+          src="../../../../../assets/img/banderas/BanderaEspana.jpg"
+          alt="LogoTouristSpain"
+          class="logo-icon"
+        />
+        TouristSpain
+      </div>
+      <nav class="nav-links">
+        <a [routerLink]="['']" routerLinkActive="active">Inicio</a>
+        <a [routerLink]="['../../../../SobreNosotros']" routerLinkActive="active">Sobre nosotros</a>
+        <a [routerLink]="['../../../../Contactanos']" routerLinkActive="active">Contactanos</a>
+      </nav>
+    </header>
+    <!--Fin de Cabecera-->
+    <div class="slider-frame">
+      <ul>
+        <li>
+          <img
+            src="../../../../../assets/img/Monumentos/Sevilla/PalacioDuenas/PalacioDuenas1.jpg"
+            alt="PalacioDuenas"
+          />
+        </li>
+      </ul>
+    </div>
+    <div class="provincias-andaluzas">
+      <img
+        src="../../../../../assets/img/banderas/BanderaAndalucia.jpg"
+        class="imagen-izquierda"
+      />
+      <ul class="provincias-list">
+        <li><a href="#">Almería</a></li>
+        <li><a href="#">Cádiz</a></li>
+        <li><a href="#">Córdoba</a></li>
+        <li><a href="#">Granada</a></li>
+        <li><a href="#">Huelva</a></li>
+        <li><a href="#">Jaén</a></li>
+        <li><a href="#">Málaga</a></li>
+        <li><a href="#">Sevilla</a></li>
+      </ul>
+      <img
+        src="../../../../../assets/img/banderas/BanderaSevilla.jpg"
+        class="imagen-derecha"
+      />
+    </div>
+    <div class="Monumentos-sevilla">
+      <h1 class="titulo">Monumentos de Sevilla</h1>
+      <div class="row">
+        <!--Informacion Monumentos-->
+        <div class="column">
+          <div class="module">
+            <div class="PalacioDuenas-Informacion">
+              <h1 class="module_header titulo" id="Plaza_header">
+                Palacio de las Dueñas
+              </h1>
+              <h2 class="titulo">Conoce el legado de la Casa de Alba</h2>
+              <p class="style-texto">
+                El interés arquitectónico de este edificio, ejemplo de la
+                arquitectura nobiliaria sevillana, radica en la mezcla de
+                estilos gótico y mudéjar. El principal atractivo de Las Dueñas
+                es la combinación entre la majestuosidad del propio edificio,
+                con sus patios y jardines, y el atractivo de su colección
+                formada por una selección de pinturas, esculturas, tapices,
+                muebles y objetos antiguos de alto interés histórico-artístico.
+              </p>
+              <p class="style-texto">
+                Su origen fue la casa-palacio de los Pineda, señores de Casa
+                Bermeja. Posteriormente el Palacio fue heredado por don Fernando
+                Enríquez de Ribera, II marqués de Villanueva del Río y padre de
+                Antonia Enríquez de Ribera, casada en 1612 con Fernando Álvarez
+                de Toledo, futuro VI duque de Alba. Desde esta fecha el palacio
+                pertenece a la Casa de Alba. Curiosamente, uno de los
+                inquilinos, y administrador del Palacio, fue Antonio Machado
+                Álvarez cuya circunstancia posibilitó el nacimiento de uno de
+                los más grandes poetas españoles,
+                <strong> Antonio Machado </strong> en 1875.
+              </p>
+            </div>
+          </div>
+          <div class="module imagenes-PalacioDuenas">
+            <img
+              src="../../../../../assets/img/Monumentos/Sevilla/PalacioDuenas/PalacioDuenas2.jpg"
+              alt="PalacioDuenas"
+            />
+            <figcaption class="leyendaImagen">
+              Salón de la Gitana del Palacio de Dueñas.
+            </figcaption>
+          </div>
+        </div>
+      </div>
+      <div class="mapa-ubicacion">
+        <iframe
+          width="425"
+          height="350"
+          src="https://www.openstreetmap.org/export/embed.html?bbox=-5.991958379745484%2C37.39427914144241%2C-5.987849235534669%2C37.39677657172192&amp;layer=mapnik"
+          style="border: 1px solid black"
+        ></iframe
+        ><br />
+      </div>
+      <div class="informacion-visita">
+        <h2>
+          <img
+            src="../../../../../assets/img/iconoslogos/Informacion.png"
+            alt="Informacion"
+          />
+          <i></i> DIRECCION Y DATOS DE CONTACTO
+        </h2>
+        <p><strong>Direccion:</strong> Calle Dueñas, 5</p>
+        <p>41003 Sevilla (Andalucía)</p>
+        <p><strong>E-mail:</strong> info@lasduenas.es</p>
+        <p><strong>Tlf:</strong> +34 954 214 828</p>
+        <p>
+          <strong>Web:</strong><a href="www.lasduenas.es"> www.lasduenas.es</a>
+        </p>
+      </div>
+    </div>
+  </div>
+  <!--Fin de informacion Monumentos-->
+  <!-- Pie de página -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2024 Todos los derechos reservados - TouristSpain</p>
+      <br />
+      <img
+        class="mapaEspaña"
+        src="../../../../../assets/img/iconoslogos/MapaEspaña.webp"
+        alt="MapaEspana"
+      />
+      <ul class="footer-links">
+        <li><a [routerLink]="['../../../../AvisoLegal']">Aviso Legal</a></li>
+        <li>
+          <a [routerLink]="['../../../../PoliticaPrivacidad']">Política de Privacidad</a>
+        </li>
+        <li>
+          <a [routerLink]="['../../../../TerminoServicios']">Términos de Servicio</a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+  <!--Fin de Pie de pagina-->
+</div>

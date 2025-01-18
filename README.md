@@ -1,27 +1,22 @@
-# TouristSpain
+# TouristSpain Rubén Fernández
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.4.
+Este proyecto fue generado con [Angular CLI](https://github.com/angular/angular-cli) versión 16.0.4.
 
-## Development server
+# Servidor de Desarrollo
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Ejecuta `ng serve` para iniciar un servidor de desarrollo. Navega a `http://localhost:4200/`. La aplicación se recargará automáticamente si realizas cambios en alguno de los archivos de origen.
 
-## Code scaffolding
+# Descripcion
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Esta página está hecha con la idea de que sea una página de Turismo de España. Al entrar, lo primero que podremos hacer es ver el mapa de España, y seleccionar la comunidad autónoma que deseemos y ver los monumentos y los restaurantes más emblemáticos de las ciudades de dicha comunidad (Actualmente solo disponibles los monumentos de Sevilla de la comunidad de Andalucia).
 
-## Build
+Con el tiempo, se añadirá también los siguientes apartados:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+1. Información sobre las diferentes ciudades andaluzas y el resto de comunidades autonomas.
+2. Un método responsive para poder abrir la página desde el móvil.
 
-## Running unit tests
+**Este proyecto ha sido desarrollado por Rubén Fernández.**
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.

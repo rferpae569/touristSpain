@@ -1,0 +1,117 @@
+<!--Inicio de Cabecera-->
+<header class="header">
+  <div class="logo">
+    <img
+      src="../../assets/img/banderas/BanderaEspana.jpg"
+      alt="LogoTouristSpain"
+      class="logo-icon"
+    />
+    TouristSpain
+  </div>
+  <nav class="nav-links">
+    <a [routerLink]="['']" routerLinkActive="active">Inicio</a>
+    <a [routerLink]="['../SobreNosotros']" routerLinkActive="active">Sobre nosotros</a>
+    <a [routerLink]="['../Contactanos']" routerLinkActive="active">Contactanos</a>
+  </nav>
+</header>
+<!--Fin de Cabecera-->
+<!--Contenido-->
+<div class="politica-cookies">
+  <h1 class="titulo">POLÍTICA DE COOKIES</h1>
+
+  <h2 class="subtitulo">1. ¿Qué son las cookies?</h2>
+  <p class="style-texto">
+    Las cookies son archivos de texto pequeños que se almacenan en su navegador
+    cuando visita casi cualquier página web. Su utilidad es que el sitio web sea
+    capaz de recordar su visita cuando vuelva a navegar por esa página. Las
+    cookies suelen almacenar información técnica, preferencias personales,
+    personalización de contenidos, estadísticas de uso, enlaces a redes
+    sociales, acceso a cuentas de usuario, etc.
+  </p>
+
+  <h2 class="subtitulo">2. Uso de cookies en nuestro sitio web</h2>
+  <p class="style-texto">
+    En www.touristSpain.com utilizamos cookies para mejorar la experiencia de
+    navegación del usuario y para realizar análisis y mediciones sobre el uso de
+    nuestro sitio web. Las cookies que utilizamos no almacenan datos personales
+    ni información que pueda identificarle.
+  </p>
+
+  <h2 class="subtitulo">3. Tipos de cookies utilizadas</h2>
+  <ul class="style-texto">
+    <li>
+      <strong>Cookies técnicas</strong>: Permiten al usuario la navegación a
+      través de una página web y la utilización de las diferentes opciones o
+      servicios que en ella existan.
+    </li>
+    <li>
+      <strong>Cookies de personalización</strong>: Permiten al usuario acceder
+      al servicio con algunas características de carácter general predefinidas
+      en función de una serie de criterios en el terminal del usuario.
+    </li>
+    <li>
+      <strong>Cookies de análisis</strong>: Permiten el seguimiento y análisis
+      del comportamiento de los usuarios de los sitios web a los que están
+      vinculadas.
+    </li>
+    <li>
+      <strong>Cookies de publicidad</strong>: Permiten la gestión, de la forma
+      más eficaz posible, de los espacios publicitarios que el editor haya
+      incluido en una página web.
+    </li>
+  </ul>
+
+  <h2 class="subtitulo">4. Gestión de cookies</h2>
+  <p class="style-texto">
+    Puede permitir, bloquear o eliminar las cookies instaladas en su equipo
+    mediante la configuración de las opciones del navegador instalado en su
+    ordenador. Tenga en cuenta que, si decide cambiar la configuración de
+    cookies, es posible que algunas funciones y servicios de nuestro sitio web
+    no funcionen correctamente.
+  </p>
+
+  <h2 class="subtitulo">5. Cookies de terceros</h2>
+  <p class="style-texto">
+    Este sitio web puede utilizar servicios de terceros que recopilarán
+    información con fines estadísticos, de uso del sitio por parte del usuario y
+    para la prestación de otros servicios relacionados con la actividad del
+    sitio web y otros servicios de Internet.
+  </p>
+
+  <h2 class="subtitulo">6. Aceptación de la política de cookies</h2>
+  <p class="style-texto">
+    Si continúa navegando en nuestro sitio web, consideramos que acepta esta
+    política de cookies. Puede obtener más información sobre cómo utilizamos las
+    cookies en nuestra
+    <a [routerLink]="['../PoliticaPrivacidad']">Política de Privacidad</a>.
+  </p>
+
+  <h2 class="subtitulo">7. Actualización de la política de cookies</h2>
+  <p class="style-texto">
+    Esta política de cookies puede ser modificada en función de exigencias
+    legislativas, reglamentarias, o con la finalidad de adaptar dicha política a
+    las instrucciones dictadas por la Agencia Española de Protección de Datos,
+    por lo que se aconseja a los usuarios que la visiten periódicamente.
+  </p>
+</div>
+<!--Contenido-->
+<!-- Pie de página -->
+<footer class="footer">
+  <div class="container">
+    <p>&copy; 2024 Todos los derechos reservados - TouristSpain</p>
+    <br />
+    <img
+      class="mapaEspaña"
+      src="../../assets/img/iconoslogos/MapaEspaña.webp"
+      alt="MapaEspana"
+    />
+    <ul class="footer-links">
+      <li><a [routerLink]="['/AvisoLegal']">Aviso Legal</a></li>
+      <li>
+        <a [routerLink]="['../PoliticaPrivacidad']">Política de Privacidad</a>
+      </li>
+      <li><a [routerLink]="['../TerminoServicios']">Términos de Servicio</a></li>
+    </ul>
+  </div>
+</footer>
+<!--Fin de Pie de pagina-->

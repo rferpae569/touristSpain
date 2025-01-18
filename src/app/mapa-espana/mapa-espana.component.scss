@@ -1,0 +1,635 @@
+*,
+*::after,
+*::before {
+  margin: 0rem;
+  padding: 0rem;
+  box-sizing: inherit;
+}
+
+.body {
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100;
+  line-height: 1.7rem;
+  color: #fff;
+  background-color: #c1ade0;
+  background-size: cover;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.5s ease-out;
+}
+
+.enlaces{
+  text-decoration: underline;
+  color: rgb(27, 119, 224);
+}
+
+.enlaces:hover{
+  color: red;
+}
+
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.bg {
+  width: 90rem;
+  position: relative;
+}
+
+.point {
+  position: absolute;
+  width: 1.3rem;
+  height: 1.3rem;
+  background-color: #9976dd;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+
+.point:hover {
+  transform: rotate(90deg);
+}
+
+.point::after {
+  width: 3.9rem;
+  height: 3.9rem;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #6b2fdd;
+  border-radius: 50%;
+  opacity: 0;
+  margin: -1.3rem 0 0 -1.3rem;
+  animation: waves 20s infinite;
+}
+
+@keyframes waves {
+  0% {
+    transform: scale(0);
+  }
+  1% {
+    opacity: 0.7;
+  }
+  5% {
+    opacity: 0;
+    transform: scale(1);
+  }
+}
+
+.info {
+  width: 25rem;
+  height: 20rem;
+  position: absolute;
+  top: 5rem;
+  left: -8rem;
+  transform: rotate(-90deg);
+  display: none;
+}
+
+.point:hover .info {
+  display: block;
+}
+
+.content_container {
+  background-color: #dfdce3;
+  box-shadow: 0 1rem 3.1rem -0.4rem rgba(88, 67, 128, 0.6);
+  border-radius: 0.7rem;
+  position: absolute;
+  animation: appear 1s;
+  transition: 1s;
+}
+
+.content_container:before {
+  content: "";
+  height: 0;
+  width: 0;
+  position: absolute;
+  top: 5.5rem;
+  left: 99%;
+  border-style: solid;
+  border-width: 0.75rem 0 0.75rem 0.8rem;
+  border-color: transparent transparent transparent #dfdce3;
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+  20% {
+    opacity: 0;
+    transform: scale3d(1.1, 1.1, 1.1);
+  }
+  40% {
+    transform: scale3d(0.9, 0.9, 0.9);
+  }
+  60% {
+    transform: scale3d(1.03, 1.03, 1.03);
+  }
+  80% {
+    transform: scale3d(0.97, 0.97, 0.97);
+  }
+  100% {
+    opacity: 1;
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.title {
+  width: 25rem;
+  height: 4rem;
+  background-color: #a58fdb;
+  border-radius: 0.7rem 0.7rem 0 0;
+  font-weight: 700;
+  font-size: 1.5rem;
+  padding: 1rem;
+  text-align: center;
+}
+
+.galicia {
+  background-color: #ffffff;
+  color: black;
+}
+
+.canarias {
+  background-color: #deec0f;
+}
+
+.andalucia {
+  background-color: #18460d;
+}
+
+.castillaleon {
+  background-color: #8b15eb;
+}
+
+.extremadura {
+  background-color: #1ed827;
+}
+
+.castillamancha {
+  background-color: #cea214;
+}
+
+.murcia {
+  background-color: #921212;
+}
+
+.madrid {
+  background-color: #c50909;
+}
+
+.rioja {
+  background-color: #1d7bb1;
+}
+
+.valenciana {
+  background-color: #1d7bb1;
+}
+
+.baleares {
+  background-color: #640e60;
+}
+
+.asturias {
+  background-color: #1d7bb1;
+}
+
+.cantabria {
+  background-color: #ce1b1b;
+}
+
+.navarra {
+  background-color: #ce1b1b;
+}
+
+.aragon {
+  background-color: #921212;
+}
+
+.cataluna {
+  background-color: #ebdc15;
+}
+
+.text {
+  padding: 2rem;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  color: #777;
+}
+
+#madrid {
+  top: 26rem;
+  left: 47.5rem;
+}
+
+#andalucia {
+  top: 45rem;
+  left: 36.5rem;
+}
+
+#andalucia::after {
+  animation-delay: 1s;
+}
+
+#asturias {
+  top: 4.5rem;
+  left: 36.5rem;
+}
+
+#asturias::after {
+  animation-delay: 2s;
+}
+
+#aragon {
+  top: 18rem;
+  left: 61.5rem;
+}
+
+#aragon::after {
+  animation-delay: 3s;
+}
+
+#cantabria {
+  top: 4.8rem;
+  left: 46.3rem;
+}
+
+#cantabria::after {
+  animation-delay: 4s;
+}
+
+#catalunia {
+  top: 17rem;
+  left: 77rem;
+}
+
+#catalunia::after {
+  animation-delay: 5s;
+}
+
+#valencia {
+  top: 31.5rem;
+  left: 64rem;
+}
+
+#valencia::after {
+  animation-delay: 6s;
+}
+
+#murcia {
+  top: 41rem;
+  left: 60rem;
+}
+
+#murcia::after {
+  animation-delay: 7s;
+}
+
+#galicia {
+  top: 8.5rem;
+  left: 25.5rem;
+}
+
+#galicia::after {
+  animation-delay: 8s;
+}
+
+#pais_vasco {
+  top: 8.5rem;
+  left: 52.3rem;
+}
+
+#pais_vasco::after {
+  animation-delay: 9s;
+}
+
+#navarra {
+  top: 9.5rem;
+  left: 57rem;
+}
+
+#navarra::after {
+  animation-delay: 10s;
+}
+
+#extremadura {
+  top: 36rem;
+  left: 33.5rem;
+}
+
+#extremadura::after {
+  animation-delay: 11s;
+}
+
+#rioja {
+  top: 11.5rem;
+  left: 53rem;
+}
+
+#rioja::after {
+  animation-delay: 12s;
+}
+
+#ceuta {
+  top: 56.5rem;
+  left: 38rem;
+}
+
+#ceuta::after {
+  animation-delay: 13s;
+}
+
+#melilla {
+  top: 60.2rem;
+  left: 51.5rem;
+}
+
+#melilla::after {
+  animation-delay: 14s;
+}
+
+#canarias {
+  top: 59.5rem;
+  left: 25.5rem;
+}
+
+#canarias::after {
+  animation-delay: 15s;
+}
+
+#baleares {
+  top: 29.5rem;
+  left: 81rem;
+}
+
+#baleares::after {
+  animation-delay: 16s;
+}
+
+#castilla-la_mancha {
+  top: 30.5rem;
+  left: 44rem;
+}
+
+#castilla-la_mancha::after {
+  animation-delay: 17s;
+}
+
+#castilla_leon {
+  top: 16.5rem;
+  left: 40.5rem;
+}
+
+#castilla_leon::after {
+  animation-delay: 18s;
+}
+
+.st0 {
+  fill: #949397;
+}
+
+.st1 {
+  fill: #d2c7e2;
+  stroke: #dbd7e0;
+  stroke-miterlimit: 10;
+}
+
+.st1Cantabria,
+.st1Navarra {
+  fill: #ce1b1b;
+  stroke: #dbd7e0;
+  stroke-miterlimit: 10;
+}
+
+.st1Rioja,
+.st1Valenciana,
+.st1Asturias {
+  fill: #1d7bb1;
+  stroke: #dbd7e0;
+  stroke-miterlimit: 10;
+}
+
+.st1CastillaMancha {
+  fill: #cea214;
+  stroke: #dbd7e0;
+  stroke-miterlimit: 10;
+}
+
+.st1Extremadura {
+  fill: #1ed827;
+  stroke: #dbd7e0;
+  stroke-miterlimit: 10;
+}
+
+.st1Cataluna {
+  fill: #ebdc15;
+  stroke: #dbd7e0;
+  stroke-miterlimit: 10;
+}
+
+.st1CastillaLeon {
+  fill: #8b15eb;
+  stroke: #dbd7e0;
+  stroke-miterlimit: 10;
+}
+
+.st1Andalucia {
+  fill: #18460d;
+  stroke: #dbd7e0;
+  stroke-miterlimit: 10;
+}
+
+.st1Aragon,
+.st1Murcia {
+  fill: #921212;
+  stroke: #dbd7e0;
+  stroke-miterlimit: 10;
+}
+
+.st1Galicia {
+  fill: #ffffff;
+  stroke: #dbd7e0;
+  stroke-miterlimit: 10;
+}
+
+.st1Baleares {
+  fill: #640e60;
+  stroke: #dbd7e0;
+  stroke-miterlimit: 10;
+}
+
+.st1Canarias {
+  fill: #deec0f;
+  stroke: #dbd7e0;
+  stroke-miterlimit: 10;
+}
+
+.st1Madrid {
+  fill: #c50909;
+  stroke: #dbd7e0;
+  stroke-miterlimit: 10;
+}
+
+.st2 {
+  fill: #dfdce3;
+}
+
+.st3 {
+  fill: none;
+  stroke: #ffffff;
+  stroke-width: 0.5;
+  stroke-miterlimit: 10;
+}
+
+.st5 {
+  fill: #ffffff;
+}
+
+.header {
+  background-color: #333;
+  color: #fff; 
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+.nav-links .active {
+  font-weight: bold;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.footer p {
+  margin: 0;
+  text-align: center;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.footer-links li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.footer-links li:last-child {
+  margin-right: 0;
+}
+
+.footer-links li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-links li a:hover {
+  text-decoration: underline;
+}
+
+.mapaEspaña {
+  width: 300px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 15px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-icon {
+  width: 85px;
+  height: auto;
+  margin-right: 10px; 
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}
+
+.blurred {
+  filter: blur(5px);
+  pointer-events: none;
+}
+
+.cookie-consent {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+.cookie-consent p {
+  margin: 0 0 10px 0;
+}
+
+.cookie-consent button {
+  background-color: #f44336;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.cookie-consent button:hover {
+  background-color: #e53935;
+}
+
+.cookie-consent button:nth-child(2) {
+  background-color: #4CAF50;
+}
+
+.cookie-consent button:nth-child(2):hover {
+  background-color: #45a049;
+}

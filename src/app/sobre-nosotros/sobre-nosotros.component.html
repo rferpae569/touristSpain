@@ -1,0 +1,96 @@
+<!--Inicio de Cabecera-->
+<header class="header">
+  <div class="logo">
+    <img
+      src="../../assets/img/banderas/BanderaEspana.jpg"
+      alt="LogoTouristSpain"
+      class="logo-icon"
+    />
+    TouristSpain
+  </div>
+  <nav class="nav-links">
+    <a [routerLink]="['']" routerLinkActive="active">Inicio</a>
+    <a [routerLink]="['../SobreNosotros']" routerLinkActive="active">Sobre nosotros</a>
+    <a [routerLink]="['../Contactanos']" routerLinkActive="active">Contactanos</a>
+  </nav>
+</header>
+<!--Fin de Cabecera-->
+<div class="SobreNosotros">
+  <h1 class="titulo">Sobre Nosotros</h1>
+
+  <section>
+    <h2 class="subtitulo">Nuestra Misión</h2>
+    <p class="style-texto">
+      En TouristSpain, nos apasiona compartir la belleza, la cultura y la
+      diversidad de España con el mundo entero. Nuestra misión es ser tu guía
+      confiable para descubrir los destinos más fascinantes y auténticos que
+      este maravilloso país tiene para ofrecer.
+    </p>
+  </section>
+  <section>
+    <h2 class="subtitulo">¿Qué hacemos?</h2>
+    <p class="style-texto">
+      En TouristSpain nos especializamos en proporcionar información detallada y
+      actualizada sobre:
+    </p>
+    <ul class="style-texto">
+      <li>
+        <strong>Destinos Emblemáticos:</strong> Desde las vibrantes ciudades
+        como Madrid y Barcelona hasta los pueblos encantadores de Andalucía y
+        las playas paradisíacas de las Islas Baleares, te llevamos a los lugares
+        más icónicos de España.
+      </li>
+      <li>
+        <strong>Consejos Prácticos:</strong> Ofrecemos consejos prácticos sobre alojamiento, 
+        gastronomía y actividades locales para que tu
+        viaje sea fluido y enriquecedor.
+      </li>
+    </ul>
+  </section>
+  <section>
+    <h2 class="subtitulo">Nuestro Equipo</h2>
+    <p class="style-texto">
+      En TouristSpain, nuestro equipo está formado por apasionados de los viajes
+      y expertos en diferentes aspectos de España. Nos comprometemos a brindarte
+      contenido de calidad y recomendaciones honestas basadas en nuestra
+      experiencia y conocimiento del país.
+    </p>
+  </section>
+  <section>
+    <h2 class="subtitulo">Únete a Nosotros</h2>
+    <p class="style-texto">
+      Explora España con TouristSpain y déjanos ser tu compañero de viaje. Ya
+      sea que estés planeando tu primer viaje o buscando nuevas aventuras en
+      este país lleno de historia y tradición, estamos aquí para ayudarte a
+      hacer de cada momento una experiencia inolvidable.
+    </p>
+    <p class="style-texto">
+      <strong
+        >¡Gracias por elegir TouristSpain para descubrir lo mejor de
+        España!</strong
+      >
+    </p>
+  </section>
+</div>
+<!-- Pie de página -->
+<footer class="footer">
+  <div class="container">
+    <p>&copy; 2024 Todos los derechos reservados - TouristSpain</p>
+    <br />
+    <img
+      class="mapaEspaña"
+      src="../../assets/img/iconoslogos/MapaEspaña.webp"
+      alt="MapaEspana"
+    />
+    <ul class="footer-links">
+      <li><a [routerLink]="['../AvisoLegal']">Aviso Legal</a></li>
+      <li>
+        <a [routerLink]="['PoliticaPrivacidad']">Política de Privacidad</a>
+      </li>
+      <li>
+        <a [routerLink]="['../TerminoServicios']">Términos de Servicio</a>
+      </li>
+    </ul>
+  </div>
+</footer>
+<!--Fin de Pie de pagina-->

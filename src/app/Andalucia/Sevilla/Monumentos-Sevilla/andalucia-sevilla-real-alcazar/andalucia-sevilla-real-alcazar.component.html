@@ -1,0 +1,145 @@
+<div class="background-image">
+  <!--Contenedor-->
+  <div class="container">
+    <!--Cabecera-->
+    <header class="header">
+      <div class="logo">
+        <img
+          src="../../../../../assets/img/banderas/BanderaEspana.jpg"
+          alt="LogoTouristSpain"
+          class="logo-icon"
+        />
+        TouristSpain
+      </div>
+      <nav class="nav-links">
+        <a [routerLink]="['']" routerLinkActive="active">Inicio</a>
+        <a [routerLink]="['../../../../SobreNosotros']" routerLinkActive="active">Sobre nosotros</a>
+        <a [routerLink]="['../../../../Contactanos']" routerLinkActive="active">Contactanos</a>
+      </nav>
+    </header>
+    <!--Fin de Cabecera-->
+    <div class="slider-frame">
+      <ul>
+        <li>
+          <img
+            src="../../../../../assets/img/Monumentos/Sevilla/RealAlcazar/realalcazardesevilla1.jpg"
+            alt="RealAlcazar"
+          />
+        </li>
+        <li>
+          <img
+            src="../../../../../assets/img/Monumentos/Sevilla/RealAlcazar/realalcazardesevilla2.webp"
+            alt="RealAlcazar"
+          />
+        </li>
+        <li>
+          <img
+            src="../../../../../assets/img/Monumentos/Sevilla/RealAlcazar/realalcazardesevilla3.jpg"
+            alt="RealAlcazar"
+          />
+        </li>
+      </ul>
+    </div>
+    <div class="provincias-andaluzas">
+      <img
+        src="../../../../../assets/img/banderas/BanderaAndalucia.jpg"
+        class="imagen-izquierda"
+      />
+      <ul class="provincias-list">
+        <li><a href="#">Almería</a></li>
+        <li><a href="#">Cádiz</a></li>
+        <li><a href="#">Córdoba</a></li>
+        <li><a href="#">Granada</a></li>
+        <li><a href="#">Huelva</a></li>
+        <li><a href="#">Jaén</a></li>
+        <li><a href="#">Málaga</a></li>
+        <li><a href="#">Sevilla</a></li>
+      </ul>
+      <img
+        src="../../../../../assets/img/banderas/BanderaSevilla.jpg"
+        class="imagen-derecha"
+      />
+    </div>
+    <div class="Monumentos-sevilla">
+      <h1 class="titulo">Monumentos de Sevilla</h1>
+      <div class="row">
+        <!--Informacion Monumentos-->
+        <div class="column">
+          <div class="module">
+            <div class="alcazar-Informacion">
+              <h1 class="module_header titulo" id="alcazar_header">
+                Real Alcázar
+              </h1>
+              <p class="style-texto">
+                A escasos metros de la Catedral, podrás ver las murallas tras
+                las cuales se extiende el
+                <strong> Real Alcázar de Sevilla</strong>: un palacio de
+                palacios, un conjunto único en el mundo. Desde la Alta Edad
+                Media este recinto amurallado ha servido de residencia para
+                reyes de diferentes épocas, dejando en cada caso su legado
+                arquitectónico. E incluso hoy es residencia oficial en Sevilla
+                de los Reyes de España, lo que convierte a este espacio
+                fortificado en el palacio real en activo más antiguo de Europa.
+                La proliferación de detalles increíbles, la historia que se
+                respira en cada sala, sus jardines de ensueño… todo ello hace de
+                este conjunto palaciego una ciudadela casi irreal que te evade
+                del tiempo presente. El mundo del cine en múltiples ocasiones, o
+                series como <em><strong> Juego de Tronos </strong></em>, ya se
+                han rendido a sus encantos.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mapa-ubicacion">
+        <iframe
+          width="425"
+          height="350"
+          src="https://www.openstreetmap.org/export/embed.html?bbox=-5.992494821548463%2C37.383391333862406%2C-5.990440249443054%2C37.38464024077073&amp;layer=mapnik"
+          style="border: 1px solid black"
+        ></iframe
+        ><br />
+      </div>
+      <div class="informacion-visita">
+        <h2>
+          <img
+            src="../../../../../assets/img/iconoslogos/Informacion.png"
+            alt="Informacion"
+          />
+          <i></i> DIRECCION Y DATOS DE CONTACTO
+        </h2>
+        <p><strong>Direccion:</strong> Patio de Banderas, s/n.</p>
+        <p>41004 Sevilla (Andalucía)</p>
+        <p><strong>E-mail:</strong> alcazar@patronato-alcazarsevilla.es</p>
+        <p><strong>Tlf:</strong> +34 955 010 010</p>
+        <p>
+          <strong>web:</strong>
+          <a href="www.alcazarsevilla.org">www.alcazarsevilla.org</a>
+        </p>
+      </div>
+    </div>
+  </div>
+  <!--Fin de informacion Monumentos-->
+  <!-- Pie de página -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2024 Todos los derechos reservados - TouristSpain</p>
+      <br />
+      <img
+        class="mapaEspaña"
+        src="../../../../../assets/img/iconoslogos/MapaEspaña.webp"
+        alt="MapaEspana"
+      />
+      <ul class="footer-links">
+        <li><a [routerLink]="['../../../../AvisoLegal']">Aviso Legal</a></li>
+        <li>
+          <a [routerLink]="['../../../../PoliticaPrivacidad']">Política de Privacidad</a>
+        </li>
+        <li>
+          <a [routerLink]="['../../../../TerminoServicios']">Términos de Servicio</a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+  <!--Fin de Pie de Pagina-->
+</div>
