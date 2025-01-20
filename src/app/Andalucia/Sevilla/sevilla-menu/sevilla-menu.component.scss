@@ -43,7 +43,6 @@
   padding: 20px;
   text-align: center;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
-  border-radius: 5px;
   width: 103.5%;
   margin-top: 10vh;
   position: relative;
@@ -98,15 +97,17 @@
 
 .titulo {
   font-family: "Roboto", sans-serif;
-  text-align: left;
+  text-align: center;
+  margin-top: 0px;
+  padding-top: 2%;
 }
 
 .titulo::after {
   content: "";
   display: block;
   border-bottom: 2px solid black;
-  margin: 0;
-  width: 28%;
+  margin: 0 auto;
+  width: 90%;
   padding-top: 5px;
 }
 
@@ -132,6 +133,12 @@
   width: 100%;
   height: auto;
   object-fit: cover;
+}
+
+.Monumentos-sevilla {
+  background-color: rgb(235, 179, 106);
+  width: 99vw;
+  height: 100vh;  
 }
 
 .Monumentos-sevilla .slider{
