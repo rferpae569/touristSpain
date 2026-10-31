@@ -23,6 +23,7 @@ import { PoliticaCookiesComponent } from './politica-cookies/politica-cookies.co
 import { TerminosServicioComponent } from './terminos-servicio/terminos-servicio.component';
 import { SobreNosotrosComponent } from './sobre-nosotros/sobre-nosotros.component';
 import { ContactanosComponent } from './contactanos/contactanos.component';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
@@ -46,7 +47,8 @@ import { ContactanosComponent } from './contactanos/contactanos.component';
     PoliticaCookiesComponent,
     TerminosServicioComponent,
     SobreNosotrosComponent,
-    ContactanosComponent
+    ContactanosComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
