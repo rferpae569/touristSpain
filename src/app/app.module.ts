@@ -24,6 +24,7 @@ import { TerminosServicioComponent } from './terminos-servicio/terminos-servicio
 import { SobreNosotrosComponent } from './sobre-nosotros/sobre-nosotros.component';
 import { ContactanosComponent } from './contactanos/contactanos.component';
 import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -48,7 +49,8 @@ import { HeaderComponent } from './header/header.component';
     TerminosServicioComponent,
     SobreNosotrosComponent,
     ContactanosComponent,
-    HeaderComponent
+    HeaderComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
