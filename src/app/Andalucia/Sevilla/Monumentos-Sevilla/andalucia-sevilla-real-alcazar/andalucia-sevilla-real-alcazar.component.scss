@@ -2,12 +2,10 @@
   background-color: rgb(235, 179, 106);
   padding: 20px;
   text-align: center;
-  width: 103.5%;
 }
 
 .Monumentos-sevilla,
 .Monumentos-sevilla .row {
-  width: 103.5%;
   display: block;
 }
 
@@ -35,7 +33,7 @@
 }
 
 .Monumentos-sevilla .row .column .module img {
-  width: 95%;
+  width: 100%;
   height: auto;
   border: 8px solid #ddd;
   border-radius: 15px;
@@ -72,7 +70,7 @@
 
 .informacion-visita {
   position: absolute;
-  top: 298vh;
+  top: 220vh;
   background-color: rgba(255, 255, 255, 0.8);
   padding: 20px;
   border-radius: 10px;
