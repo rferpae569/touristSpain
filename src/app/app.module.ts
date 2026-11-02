@@ -25,6 +25,7 @@ import { SobreNosotrosComponent } from './sobre-nosotros/sobre-nosotros.componen
 import { ContactanosComponent } from './contactanos/contactanos.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
+import { MenuProvinciasComponent } from './menu-provincias/menu-provincias.component';
 
 @NgModule({
   declarations: [
@@ -50,7 +51,8 @@ import { FooterComponent } from './footer/footer.component';
     SobreNosotrosComponent,
     ContactanosComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    MenuProvinciasComponent
   ],
   imports: [
     BrowserModule,

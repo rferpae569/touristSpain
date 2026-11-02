@@ -1,0 +1,23 @@
+<div class="provincias-andaluzas">
+
+  <img
+    [src]="imagenIzquierda"
+    class="imagen-izquierda"
+    alt="Imagen izquierda"
+  />
+
+  <ul class="provincias-list">
+    <li *ngFor="let provincia of provincias">
+      <a [href]="provincia.enlace">
+        {{ provincia.nombre }}
+      </a>
+    </li>
+  </ul>
+
+  <img
+    [src]="imagenDerecha"
+    class="imagen-derecha"
+    alt="Imagen derecha"
+  />
+
+</div>

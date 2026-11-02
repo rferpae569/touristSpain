@@ -59,26 +59,12 @@
         </li>
       </ul>
     </div>
-    <div class="provincias-andaluzas">
-      <img
-        src="../../../../assets/img/banderas/BanderaAndalucia.jpg"
-        class="imagen-izquierda"
-      />
-      <ul class="provincias-list">
-        <li><a href="#">Almería</a></li>
-        <li><a href="#">Cádiz</a></li>
-        <li><a href="#">Córdoba</a></li>
-        <li><a href="#">Granada</a></li>
-        <li><a href="#">Huelva</a></li>
-        <li><a href="#">Jaén</a></li>
-        <li><a href="#">Málaga</a></li>
-        <li><a href="#">Sevilla</a></li>
-      </ul>
-      <img
-        src="../../../../assets/img/banderas/BanderaSevilla.jpg"
-        class="imagen-derecha"
-      />
-    </div>
+    <app-menu-provincias
+      [imagenIzquierda]="imagenIzquierda"
+      [imagenDerecha]="imagenDerecha"
+      [provincias]="provincias"
+    >
+    </app-menu-provincias>
     <div class="Monumentos-sevilla">
       <h1 class="titulo">Monumentos de Sevilla</h1>
       <div class="slider">
@@ -100,7 +86,9 @@
                 Cuentan las crónicas que fue concebido por el Cabildo
                 Catedralicio bajo las palabras...
               </p>
-              <a [routerLink]="['../Monumentos-Sevilla/CatedralGiraldaSevilla']" class="button"
+              <a
+                [routerLink]="['../Monumentos-Sevilla/CatedralGiraldaSevilla']"
+                class="button"
                 >Más información</a
               >
             </div>
@@ -116,7 +104,9 @@
                 A escasos metros de la Catedral, podrás ver las murallas tras
                 las cuales se extiende el Real Alcázar de Sevilla: un palacio...
               </p>
-              <a [routerLink]="['../Monumentos-Sevilla/RealAlcazarSevilla']" class="button"
+              <a
+                [routerLink]="['../Monumentos-Sevilla/RealAlcazarSevilla']"
+                class="button"
                 >Más información</a
               >
             </div>
@@ -133,7 +123,9 @@
                 Encuadrada en el Parque de María Luisa, esta plaza fue
                 diseñada...
               </p>
-              <a [routerLink]="['../Monumentos-Sevilla/PlazaEspanaSevilla']" class="button"
+              <a
+                [routerLink]="['../Monumentos-Sevilla/PlazaEspanaSevilla']"
+                class="button"
                 >Más información</a
               >
             </div>
@@ -149,7 +141,9 @@
                 La Real Maestranza de Caballería de Sevilla es una institución
                 de caballería creada en 1670 de la antigua Cofradía...
               </p>
-              <a [routerLink]="['../Monumentos-Sevilla/MaestranzaSevilla']" class="button"
+              <a
+                [routerLink]="['../Monumentos-Sevilla/MaestranzaSevilla']"
+                class="button"
                 >Más información</a
               >
             </div>
@@ -166,7 +160,9 @@
                 Guadalquivir, en la ciudad de Sevilla, junto a la plaza de toros
                 de la Real Maestranza. Su altura...
               </p>
-              <a [routerLink]="['../Monumentos-Sevilla/TorreOroSevilla']" class="button"
+              <a
+                [routerLink]="['../Monumentos-Sevilla/TorreOroSevilla']"
+                class="button"
                 >Más información</a
               >
             </div>
@@ -184,7 +180,9 @@
                 de la muralla, en el lado de la ciudad; solo en 1845 cuando se
                 iniciaron las obras...
               </p>
-              <a [routerLink]="['../Monumentos-Sevilla/PuenteTrianaSevilla']" class="button"
+              <a
+                [routerLink]="['../Monumentos-Sevilla/PuenteTrianaSevilla']"
+                class="button"
                 >Más información</a
               >
             </div>
@@ -202,7 +200,9 @@
                 abierto por el Ayuntamiento de Sevilla para llevar a cabo la
                 rehabilitación de la plaza...
               </p>
-              <a [routerLink]="['../Monumentos-Sevilla/LaSetaSevilla']" class="button"
+              <a
+                [routerLink]="['../Monumentos-Sevilla/LaSetaSevilla']"
+                class="button"
                 >Más información</a
               >
             </div>
@@ -220,7 +220,9 @@
                 edificado por Alonso de Vandelviva y Juan de Minjares. En el
                 siglo XVII se construyó...
               </p>
-              <a [routerLink]="['../Monumentos-Sevilla/ArchivoIndiasSevilla']" class="button"
+              <a
+                [routerLink]="['../Monumentos-Sevilla/ArchivoIndiasSevilla']"
+                class="button"
                 >Más información</a
               >
             </div>
@@ -239,7 +241,9 @@
                 Un primer proyecto se aprueba por la Real Academia de Bellas
                 Artes de San Fernando...
               </p>
-              <a [routerLink]="['../Monumentos-Sevilla/AyuntamientoSevilla']" class="button"
+              <a
+                [routerLink]="['../Monumentos-Sevilla/AyuntamientoSevilla']"
+                class="button"
                 >Más información</a
               >
             </div>
@@ -256,7 +260,9 @@
                 arquitectura nobiliaria sevillana, radica en la mezcla de
                 estilos gótico y mudéjar. El principal atractivo...
               </p>
-              <a [routerLink]="['../Monumentos-Sevilla/PalacioDuenasSevilla']" class="button"
+              <a
+                [routerLink]="['../Monumentos-Sevilla/PalacioDuenasSevilla']"
+                class="button"
                 >Más información</a
               >
             </div>
@@ -273,7 +279,9 @@
                 Merced , un edificio del siglo XVII que está considerado uno de
                 las mejores ejemplos del ...
               </p>
-              <a [routerLink]="['../Monumentos-Sevilla/MuseoBellasArtesSevilla']" class="button"
+              <a
+                [routerLink]="['../Monumentos-Sevilla/MuseoBellasArtesSevilla']"
+                class="button"
                 >Más información</a
               >
             </div>
@@ -290,7 +298,9 @@
                 áreas temáticas son las siguientes: Guadalquivir, Atlántico,
                 Oceanario, Selva...
               </p>
-              <a [routerLink]="['../Monumentos-Sevilla/AcuarioSevilla']" class="button"
+              <a
+                [routerLink]="['../Monumentos-Sevilla/AcuarioSevilla']"
+                class="button"
                 >Más información</a
               >
             </div>
