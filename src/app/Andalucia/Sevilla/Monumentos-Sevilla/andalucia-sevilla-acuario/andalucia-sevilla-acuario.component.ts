@@ -20,4 +20,11 @@ export class AndaluciaSevillaAcuarioComponent {
     { nombre: 'Málaga', enlace: '#' },
     { nombre: 'Sevilla', enlace: '#' },
   ];
+
+   imagenesGaleria = [
+  {
+    src: 'assets/img/Monumentos/Sevilla/AcuarioSevilla/Acuario1.jpg',
+    alt: 'AcuarioSevilla'
+  }
+];
 }

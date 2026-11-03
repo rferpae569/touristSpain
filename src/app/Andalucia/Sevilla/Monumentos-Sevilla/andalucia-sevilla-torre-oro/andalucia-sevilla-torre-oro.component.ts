@@ -20,4 +20,11 @@ export class AndaluciaSevillaTorreOroComponent {
     { nombre: 'Málaga', enlace: '#' },
     { nombre: 'Sevilla', enlace: '#' },
   ];
+
+   imagenesGaleria = [
+    {
+      src: 'assets/img/Monumentos/Sevilla/TorreOro/TorreOro.jpg',
+      alt: 'TorreOro'
+    }
+  ];
 }

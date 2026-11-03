@@ -1,27 +1,6 @@
 <div class="background-image">
   <div class="container">
-    <div class="slider-frame">
-      <ul>
-        <li>
-          <img
-            src="../../../../../assets/img/Monumentos/Sevilla/CatedralGiralda/CatedralSevilla2.jpg"
-            alt="CatedralSevilla"
-          />
-        </li>
-        <li>
-          <img
-            src="../../../../../assets/img/Monumentos/Sevilla/CatedralGiralda/CatedralSevilla4.jpg"
-            alt="CatedralSevilla"
-          />
-        </li>
-        <li>
-          <img
-            src="../../../../../assets/img/Monumentos/Sevilla/CatedralGiralda/CatedralSevilla1.jpg"
-            alt="CatedralSevilla"
-          />
-        </li>
-      </ul>
-    </div>
+    <app-galeria-imagenes [imagenes]="imagenesGaleria"> </app-galeria-imagenes>
     <app-menu-provincias
       [imagenIzquierda]="imagenIzquierda"
       [imagenDerecha]="imagenDerecha"

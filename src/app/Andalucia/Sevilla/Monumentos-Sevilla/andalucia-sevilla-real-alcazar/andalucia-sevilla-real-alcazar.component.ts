@@ -20,4 +20,19 @@ export class AndaluciaSevillaRealAlcazarComponent {
     { nombre: 'Málaga', enlace: '#' },
     { nombre: 'Sevilla', enlace: '#' },
   ];
+
+  imagenesGaleria = [
+    {
+      src: 'assets/img/Monumentos/Sevilla/RealAlcazar/realalcazardesevilla1.jpg',
+      alt: 'RealAlcazar',
+    },
+    {
+      src: 'assets/img/Monumentos/Sevilla/RealAlcazar/realalcazardesevilla2.webp',
+      alt: 'RealAlcazar',
+    },
+    {
+      src: 'assets/img/Monumentos/Sevilla/RealAlcazar/realalcazardesevilla3.jpg',
+      alt: 'RealAlcazar',
+    }
+  ];
 }

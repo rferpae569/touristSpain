@@ -20,4 +20,11 @@ export class AndaluciaSevillaMaestranzaComponent {
     { nombre: 'Málaga', enlace: '#' },
     { nombre: 'Sevilla', enlace: '#' },
   ];
+
+  imagenesGaleria = [
+    {
+      src: 'assets/img/Monumentos/Sevilla/La Maestranza/LaMaestranza.jpg',
+      alt: 'LaMaestranza',
+    }
+  ];
 }

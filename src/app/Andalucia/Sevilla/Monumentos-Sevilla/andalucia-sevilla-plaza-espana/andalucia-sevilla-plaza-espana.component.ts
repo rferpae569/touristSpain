@@ -20,4 +20,19 @@ export class AndaluciaSevillaPlazaEspanaComponent {
     { nombre: 'Málaga', enlace: '#' },
     { nombre: 'Sevilla', enlace: '#' },
   ];
+
+  imagenesGaleria = [
+    {
+      src: 'assets/img/Monumentos/Sevilla/PlazaEspaña/PlazaEspañaSevilla1.jpg',
+      alt: 'PlazaEspana',
+    },
+     {
+      src: 'assets/img/Monumentos/Sevilla/PlazaEspaña/PlazaEspañaSevilla2.jpg',
+      alt: 'PlazaEspana',
+    },
+     {
+      src: 'assets/img/Monumentos/Sevilla/PlazaEspaña/PlazaEspañaSevilla3.jpg',
+      alt: 'PlazaEspana',
+    }
+  ];
 }

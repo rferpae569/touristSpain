@@ -20,4 +20,11 @@ export class AndaluciaAyuntamientoSevillaComponent {
     { nombre: 'Málaga', enlace: '#' },
     { nombre: 'Sevilla', enlace: '#' },
   ];
+
+  imagenesGaleria = [
+  {
+    src: 'assets/img/Monumentos/Sevilla/AyuntamientoSevilla/AyuntamientoSevilla.jpg',
+    alt: 'Ayuntamiento de Sevilla'
+  }
+];
 }

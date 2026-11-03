@@ -1,27 +1,6 @@
 <div class="background-image">
   <div class="container">
-    <div class="slider-frame">
-      <ul>
-        <li>
-          <img
-            src="../../../../../assets/img/Monumentos/Sevilla/PlazaEspaña/PlazaEspañaSevilla1.jpg"
-            alt="PlazaEspana"
-          />
-        </li>
-        <li>
-          <img
-            src="../../../../../assets/img/Monumentos/Sevilla/PlazaEspaña/PlazaEspañaSevilla2.jpg"
-            alt="PlazaEspana"
-          />
-        </li>
-        <li>
-          <img
-            src="../../../../../assets/img/Monumentos/Sevilla/PlazaEspaña/PlazaEspañaSevilla3.jpg"
-            alt="PlazaEspana"
-          />
-        </li>
-      </ul>
-    </div>
+    <app-galeria-imagenes [imagenes]="imagenesGaleria"> </app-galeria-imagenes>
     <app-menu-provincias
       [imagenIzquierda]="imagenIzquierda"
       [imagenDerecha]="imagenDerecha"

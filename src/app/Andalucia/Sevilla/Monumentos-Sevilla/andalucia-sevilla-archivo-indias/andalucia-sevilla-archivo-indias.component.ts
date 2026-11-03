@@ -20,4 +20,19 @@ export class AndaluciaSevillaArchivoIndiasComponent {
     { nombre: 'Málaga', enlace: '#' },
     { nombre: 'Sevilla', enlace: '#' },
   ];
+
+  imagenesGaleria = [
+    {
+      src: 'assets/img/Monumentos/Sevilla/ArchivoIndias/ArchivoIndias1.jpg',
+      alt: 'ArchivoIndias',
+    },
+    {
+      src: 'assets/img/Monumentos/Sevilla/ArchivoIndias/ArchivoIndias2.jpg',
+      alt: 'ArchivoIndias',
+    },
+    {
+      src: 'assets/img/Monumentos/Sevilla/ArchivoIndias/ArchivoIndias3.jpg',
+      alt: 'ArchivoIndias',
+    },
+  ];
 }

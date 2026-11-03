@@ -26,6 +26,7 @@ import { ContactanosComponent } from './contactanos/contactanos.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { MenuProvinciasComponent } from './menu-provincias/menu-provincias.component';
+import { GaleriaImagenesComponent } from './galeria-imagenes/galeria-imagenes.component';
 
 @NgModule({
   declarations: [
@@ -52,7 +53,8 @@ import { MenuProvinciasComponent } from './menu-provincias/menu-provincias.compo
     ContactanosComponent,
     HeaderComponent,
     FooterComponent,
-    MenuProvinciasComponent
+    MenuProvinciasComponent,
+    GaleriaImagenesComponent
   ],
   imports: [
     BrowserModule,

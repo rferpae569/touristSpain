@@ -20,4 +20,19 @@ export class AndaluciaSevillaLaSetaComponent {
     { nombre: 'Málaga', enlace: '#' },
     { nombre: 'Sevilla', enlace: '#' },
   ];
+
+  imagenesGaleria = [
+    {
+      src: 'assets/img/Monumentos/Sevilla/LasSetas/Setas1.jpg',
+      alt: 'LasSetas',
+    },
+    {
+      src: 'assets/img/Monumentos/Sevilla/LasSetas/Setas2.jpg',
+      alt: 'LasSetas',
+    },
+    {
+      src: 'assets/img/Monumentos/Sevilla/LasSetas/Setas3.jpg',
+      alt: 'LasSetas',
+    },
+  ];
 }

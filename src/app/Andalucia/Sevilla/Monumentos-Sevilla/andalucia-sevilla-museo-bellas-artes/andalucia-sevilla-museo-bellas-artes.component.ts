@@ -20,4 +20,11 @@ export class AndaluciaSevillaMuseoBellasArtesComponent {
     { nombre: 'Málaga', enlace: '#' },
     { nombre: 'Sevilla', enlace: '#' },
   ];
+
+  imagenesGaleria = [
+    {
+      src: 'assets/img/Monumentos/Sevilla/MuseoBellasArtes/MuseoBellasArtes2.jpg',
+      alt: 'BellasArtes',
+    }
+  ];
 }

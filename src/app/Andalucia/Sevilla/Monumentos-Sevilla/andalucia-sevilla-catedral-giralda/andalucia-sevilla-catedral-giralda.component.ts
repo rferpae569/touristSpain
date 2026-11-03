@@ -22,4 +22,19 @@ export class AndaluciaSevillaCatedralGiraldaComponent {
     { nombre: 'Málaga', enlace: '#' },
     { nombre: 'Sevilla', enlace: '#' },
   ];
+
+  imagenesGaleria = [
+    {
+      src: 'assets/img/Monumentos/Sevilla/CatedralGiralda/CatedralSevilla2.jpg',
+      alt: 'CatedralSevilla',
+    },
+    {
+      src: 'assets/img/Monumentos/Sevilla/CatedralGiralda/CatedralSevilla4.jpg',
+      alt: 'CatedralSevilla',
+    },
+    {
+      src: 'assets/img/Monumentos/Sevilla/CatedralGiralda/CatedralSevilla1.jpg',
+      alt: 'CatedralSevilla',
+    },
+  ];
 }

@@ -1,27 +1,6 @@
 <div class="background-image">
   <div class="container">
-    <div class="slider-frame">
-      <ul>
-        <li>
-          <img
-            src="../../../../../assets/img/Monumentos/Sevilla/ArchivoIndias/ArchivoIndias1.jpg"
-            alt="ArchivoIndias"
-          />
-        </li>
-        <li>
-          <img
-            src="../../../../../assets/img/Monumentos/Sevilla/ArchivoIndias/ArchivoIndias2.jpg"
-            alt="ArchivoIndias"
-          />
-        </li>
-        <li>
-          <img
-            src="../../../../../assets/img/Monumentos/Sevilla/ArchivoIndias/ArchivoIndias3.jpg"
-            alt="ArchivoIndias"
-          />
-        </li>
-      </ul>
-    </div>
+    <app-galeria-imagenes [imagenes]="imagenesGaleria"> </app-galeria-imagenes>
     <app-menu-provincias
       [imagenIzquierda]="imagenIzquierda"
       [imagenDerecha]="imagenDerecha"

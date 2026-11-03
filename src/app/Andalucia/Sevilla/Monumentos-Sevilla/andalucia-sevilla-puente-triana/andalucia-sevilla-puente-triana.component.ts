@@ -20,4 +20,11 @@ export class AndaluciaSevillaPuenteTrianaComponent {
     { nombre: 'Málaga', enlace: '#' },
     { nombre: 'Sevilla', enlace: '#' },
   ];
+
+  imagenesGaleria = [
+    {
+      src: 'assets/img/Monumentos/Sevilla/PuenteTriana/PuenteTriana.jpg',
+      alt: 'PuenteTriana',
+    }
+  ];
 }

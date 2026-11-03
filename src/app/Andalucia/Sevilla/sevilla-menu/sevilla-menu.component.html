@@ -1,64 +1,7 @@
 <div class="background-image">
   <!--Contenedor-->
   <div class="container">
-    <div class="slider-frame">
-      <ul>
-        <li>
-          <img
-            src="../../../../assets/img/Monumentos/Sevilla/CatedralGiralda/CatedralSevilla2.jpg"
-            alt="CatedralSevilla"
-          />
-        </li>
-        <li>
-          <img
-            src="../../../../assets/img/Monumentos/Sevilla/RealAlcazar/realalcazardesevilla1.jpg"
-            alt="RealAlcazarSevilla"
-          />
-        </li>
-        <li>
-          <img
-            src="../../../../assets/img/Monumentos/Sevilla/PlazaEspaña/PlazaEspañaSevilla1.jpg"
-            alt="PlazaEspanaSevilla"
-          />
-        </li>
-        <li>
-          <img
-            src="../../../../assets/img/Monumentos/Sevilla/La Maestranza/LaMaestranza.jpg"
-            alt="MaestranzaSevilla"
-          />
-        </li>
-        <li>
-          <img
-            src="../../../../assets/img/Monumentos/Sevilla/TorreOro/TorreOro.jpg"
-            alt="TorreOroSevilla"
-          />
-        </li>
-        <li>
-          <img
-            src="../../../../assets/img/Monumentos/Sevilla/PuenteTriana/PuenteTriana.jpg"
-            alt="PuenteTrianaSevilla"
-          />
-        </li>
-        <li>
-          <img
-            src="../../../../assets/img/Monumentos/Sevilla/LasSetas/Setas1.jpg"
-            alt="LaSetaSevilla"
-          />
-        </li>
-        <li>
-          <img
-            src="../../../../assets/img/Monumentos/Sevilla/ArchivoIndias/ArchivoIndias1.jpg"
-            alt="ArchivoIndias"
-          />
-        </li>
-        <li>
-          <img
-            src="../../../../assets/img/Monumentos/Sevilla/AyuntamientoSevilla/AyuntamientoSevilla.jpg"
-            alt="AyuntamientoSevilla"
-          />
-        </li>
-      </ul>
-    </div>
+    <app-galeria-imagenes [imagenes]="imagenesGaleria"> </app-galeria-imagenes>
     <app-menu-provincias
       [imagenIzquierda]="imagenIzquierda"
       [imagenDerecha]="imagenDerecha"

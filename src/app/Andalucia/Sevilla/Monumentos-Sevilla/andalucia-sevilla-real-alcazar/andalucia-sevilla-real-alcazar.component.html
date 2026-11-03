@@ -1,28 +1,7 @@
 <div class="background-image">
   <!--Contenedor-->
   <div class="container">
-    <div class="slider-frame">
-      <ul>
-        <li>
-          <img
-            src="../../../../../assets/img/Monumentos/Sevilla/RealAlcazar/realalcazardesevilla1.jpg"
-            alt="RealAlcazar"
-          />
-        </li>
-        <li>
-          <img
-            src="../../../../../assets/img/Monumentos/Sevilla/RealAlcazar/realalcazardesevilla2.webp"
-            alt="RealAlcazar"
-          />
-        </li>
-        <li>
-          <img
-            src="../../../../../assets/img/Monumentos/Sevilla/RealAlcazar/realalcazardesevilla3.jpg"
-            alt="RealAlcazar"
-          />
-        </li>
-      </ul>
-    </div>
+    <app-galeria-imagenes [imagenes]="imagenesGaleria"> </app-galeria-imagenes>
      <app-menu-provincias
       [imagenIzquierda]="imagenIzquierda"
       [imagenDerecha]="imagenDerecha"

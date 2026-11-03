@@ -20,4 +20,11 @@ export class AndaluciaSevillaPalacioDuenasComponent {
     { nombre: 'Málaga', enlace: '#' },
     { nombre: 'Sevilla', enlace: '#' },
   ];
+
+  imagenesGaleria = [
+    {
+      src: 'assets/img/Monumentos/Sevilla/PalacioDuenas/PalacioDuenas1.jpg',
+      alt: 'PalacioDuenas',
+    }
+  ];
 }
