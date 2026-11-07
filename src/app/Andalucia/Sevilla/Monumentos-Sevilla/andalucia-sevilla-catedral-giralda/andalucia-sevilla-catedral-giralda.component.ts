@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { MENU_PROVINCIAS } from '../../../../config/menu-provincias.config';
 
 @Component({
   selector: 'app-andalucia-sevilla-catedral-giralda',
@@ -8,20 +9,11 @@ import { Component } from '@angular/core';
 export class AndaluciaSevillaCatedralGiraldaComponent {
   constructor() {}
 
-  imagenIzquierda: string = 'assets/img/banderas/BanderaAndalucia.jpg';
+ imagenIzquierda = MENU_PROVINCIAS.sevilla.imagenIzquierda;
 
-  imagenDerecha: string = 'assets/img/banderas/BanderaSevilla.jpg';
+  imagenDerecha = MENU_PROVINCIAS.sevilla.imagenDerecha;
 
-  provincias = [
-    { nombre: 'Almería', enlace: '#' },
-    { nombre: 'Cádiz', enlace: '#' },
-    { nombre: 'Córdoba', enlace: '#' },
-    { nombre: 'Granada', enlace: '#' },
-    { nombre: 'Huelva', enlace: '#' },
-    { nombre: 'Jaén', enlace: '#' },
-    { nombre: 'Málaga', enlace: '#' },
-    { nombre: 'Sevilla', enlace: '#' },
-  ];
+  provincias = MENU_PROVINCIAS.sevilla.provincias;
 
   imagenesGaleria = [
     {
