@@ -42,3 +42,71 @@
 a:hover {
   color: red;
 }
+
+/* TABLETS */
+@media screen and (max-width: 768px) {
+
+  .politica-privacidad {
+    height: auto;
+    min-height: 100%;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+  }
+
+  .titulo {
+    font-size: 30px;
+  }
+
+  .subtitulo {
+    font-size: 24px;
+  }
+
+  .style-texto {
+    font-size: 20px;
+    max-width: 90%;
+  }
+
+}
+
+/* TABLETS GRANDES */
+@media screen and (min-width: 769px) and (max-width: 1366px) {
+
+  .politica-privacidad {
+    height: auto;
+    min-height: 100%;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+  }
+
+}
+
+/* MOVILES */
+@media screen and (max-width: 576px) {
+
+  .politica-privacidad {
+    height: auto;
+    min-height: 100%;
+    padding-bottom: 10px;
+  }
+
+  .titulo {
+    font-size: 26px;
+  }
+
+  .subtitulo {
+    font-size: 21px;
+    margin-bottom: 15px;
+  }
+
+  .style-texto {
+    font-size: 16px;
+    max-width: 100%;
+    padding: 0 15px;
+    margin-bottom: 18px;
+  }
+
+  .titulo::after {
+    width: 95%;
+  }
+
+}

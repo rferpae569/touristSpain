@@ -40,3 +40,52 @@
   margin: 0 auto;
   border-radius: 15px;
 }
+
+/* TABLETS */
+@media screen and (max-width: 768px) {
+
+  .footer {
+    padding: 20px 15px;
+  }
+
+  .mapaEspaña {
+    width: 250px;
+  }
+
+  .footer-links li {
+    margin-right: 15px;
+  }
+
+}
+
+/* MOVILES */
+@media screen and (max-width: 576px) {
+
+  .footer {
+    padding: 20px 10px;
+  }
+
+  .footer p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .mapaEspaña {
+    width: 200px;
+  }
+
+  .footer-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 0;
+  }
+
+  .footer-links li {
+    display: block;
+    margin: 0;
+    font-size: 14px;
+  }
+
+}
