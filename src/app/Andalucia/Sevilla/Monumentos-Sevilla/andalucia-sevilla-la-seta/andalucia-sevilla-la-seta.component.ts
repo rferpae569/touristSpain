@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { MENU_PROVINCIAS } from '../../../../config/menu-provincias.config';
+import { GALERIAS_IMAGENES } from '../../../../config/galeria-imagenes.config';
 
 @Component({
   selector: 'app-andalucia-sevilla-la-seta',
@@ -13,18 +14,5 @@ export class AndaluciaSevillaLaSetaComponent {
 
   provincias = MENU_PROVINCIAS.sevilla.provincias;
 
-  imagenesGaleria = [
-    {
-      src: 'assets/img/Monumentos/Sevilla/LasSetas/Setas1.jpg',
-      alt: 'LasSetas',
-    },
-    {
-      src: 'assets/img/Monumentos/Sevilla/LasSetas/Setas2.jpg',
-      alt: 'LasSetas',
-    },
-    {
-      src: 'assets/img/Monumentos/Sevilla/LasSetas/Setas3.jpg',
-      alt: 'LasSetas',
-    },
-  ];
+  imagenesGaleria = GALERIAS_IMAGENES.setaSevilla;
 }

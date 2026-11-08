@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { MENU_PROVINCIAS } from '../../../../config/menu-provincias.config';
+import { GALERIAS_IMAGENES } from '../../../../config/galeria-imagenes.config';
 
 @Component({
   selector: 'app-andalucia-sevilla-plaza-espana',
@@ -13,18 +14,5 @@ export class AndaluciaSevillaPlazaEspanaComponent {
 
   provincias = MENU_PROVINCIAS.sevilla.provincias;
 
-  imagenesGaleria = [
-    {
-      src: 'assets/img/Monumentos/Sevilla/PlazaEspaña/PlazaEspañaSevilla1.jpg',
-      alt: 'PlazaEspana',
-    },
-     {
-      src: 'assets/img/Monumentos/Sevilla/PlazaEspaña/PlazaEspañaSevilla2.jpg',
-      alt: 'PlazaEspana',
-    },
-     {
-      src: 'assets/img/Monumentos/Sevilla/PlazaEspaña/PlazaEspañaSevilla3.jpg',
-      alt: 'PlazaEspana',
-    }
-  ];
+  imagenesGaleria = GALERIAS_IMAGENES.plazaespanaSevilla;
 }

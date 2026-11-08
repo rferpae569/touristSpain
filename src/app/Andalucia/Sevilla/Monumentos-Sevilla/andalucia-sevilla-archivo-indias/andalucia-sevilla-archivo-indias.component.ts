@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { MENU_PROVINCIAS } from '../../../../config/menu-provincias.config';
+import { GALERIAS_IMAGENES } from '../../../../config/galeria-imagenes.config';
 
 @Component({
   selector: 'app-andalucia-sevilla-archivo-indias',
@@ -13,18 +14,5 @@ export class AndaluciaSevillaArchivoIndiasComponent {
 
   provincias = MENU_PROVINCIAS.sevilla.provincias;
 
-  imagenesGaleria = [
-    {
-      src: 'assets/img/Monumentos/Sevilla/ArchivoIndias/ArchivoIndias1.jpg',
-      alt: 'ArchivoIndias',
-    },
-    {
-      src: 'assets/img/Monumentos/Sevilla/ArchivoIndias/ArchivoIndias2.jpg',
-      alt: 'ArchivoIndias',
-    },
-    {
-      src: 'assets/img/Monumentos/Sevilla/ArchivoIndias/ArchivoIndias3.jpg',
-      alt: 'ArchivoIndias',
-    },
-  ];
+  imagenesGaleria = GALERIAS_IMAGENES.archivoindiasSevilla;
 }

@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { MENU_PROVINCIAS } from '../../../../config/menu-provincias.config';
+import { GALERIAS_IMAGENES } from '../../../../config/galeria-imagenes.config';
 
 @Component({
   selector: 'app-andalucia-sevilla-catedral-giralda',
@@ -15,18 +16,5 @@ export class AndaluciaSevillaCatedralGiraldaComponent {
 
   provincias = MENU_PROVINCIAS.sevilla.provincias;
 
-  imagenesGaleria = [
-    {
-      src: 'assets/img/Monumentos/Sevilla/CatedralGiralda/CatedralSevilla2.jpg',
-      alt: 'CatedralSevilla',
-    },
-    {
-      src: 'assets/img/Monumentos/Sevilla/CatedralGiralda/CatedralSevilla4.jpg',
-      alt: 'CatedralSevilla',
-    },
-    {
-      src: 'assets/img/Monumentos/Sevilla/CatedralGiralda/CatedralSevilla1.jpg',
-      alt: 'CatedralSevilla',
-    },
-  ];
+  imagenesGaleria = GALERIAS_IMAGENES.catedralgiraldaSevilla;
 }

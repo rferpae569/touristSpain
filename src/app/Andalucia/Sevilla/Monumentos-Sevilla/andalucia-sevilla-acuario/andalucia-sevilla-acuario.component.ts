@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { MENU_PROVINCIAS } from '../../../../config/menu-provincias.config';
+import { GALERIAS_IMAGENES } from '../../../../config/galeria-imagenes.config';
 
 @Component({
   selector: 'app-andalucia-sevilla-acuario',
@@ -13,10 +14,5 @@ export class AndaluciaSevillaAcuarioComponent {
 
   provincias = MENU_PROVINCIAS.sevilla.provincias;
 
-   imagenesGaleria = [
-  {
-    src: 'assets/img/Monumentos/Sevilla/AcuarioSevilla/Acuario1.jpg',
-    alt: 'AcuarioSevilla'
-  }
-];
+  imagenesGaleria = GALERIAS_IMAGENES.acuarioSevilla;
 }

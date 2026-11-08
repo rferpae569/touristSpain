@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { MENU_PROVINCIAS } from '../../../../config/menu-provincias.config';
+import { GALERIAS_IMAGENES } from '../../../../config/galeria-imagenes.config';
 
 @Component({
   selector: 'app-ayuntamiento-sevilla',
@@ -13,10 +14,5 @@ export class AndaluciaAyuntamientoSevillaComponent {
 
   provincias = MENU_PROVINCIAS.sevilla.provincias;
 
-  imagenesGaleria = [
-  {
-    src: 'assets/img/Monumentos/Sevilla/AyuntamientoSevilla/AyuntamientoSevilla.jpg',
-    alt: 'Ayuntamiento de Sevilla'
-  }
-];
+  imagenesGaleria = GALERIAS_IMAGENES.ayuntamientoSevilla;
 }

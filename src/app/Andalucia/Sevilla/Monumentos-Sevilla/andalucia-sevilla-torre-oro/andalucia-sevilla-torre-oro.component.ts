@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { MENU_PROVINCIAS } from '../../../../config/menu-provincias.config';
+import { GALERIAS_IMAGENES } from '../../../../config/galeria-imagenes.config';
 
 @Component({
   selector: 'app-andalucia-sevilla-torre-oro',
@@ -13,10 +14,5 @@ export class AndaluciaSevillaTorreOroComponent {
 
   provincias = MENU_PROVINCIAS.sevilla.provincias;
 
-   imagenesGaleria = [
-    {
-      src: 'assets/img/Monumentos/Sevilla/TorreOro/TorreOro.jpg',
-      alt: 'TorreOro'
-    }
-  ];
+   imagenesGaleria = GALERIAS_IMAGENES.torreoroSevilla;
 }

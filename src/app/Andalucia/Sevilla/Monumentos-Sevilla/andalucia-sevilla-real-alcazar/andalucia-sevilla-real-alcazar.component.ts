@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { MENU_PROVINCIAS } from '../../../../config/menu-provincias.config';
+import { GALERIAS_IMAGENES } from '../../../../config/galeria-imagenes.config';
 
 @Component({
   selector: 'app-andalucia-sevilla-real-alcazar',
@@ -13,18 +14,5 @@ export class AndaluciaSevillaRealAlcazarComponent {
 
   provincias = MENU_PROVINCIAS.sevilla.provincias;
 
-  imagenesGaleria = [
-    {
-      src: 'assets/img/Monumentos/Sevilla/RealAlcazar/realalcazardesevilla1.jpg',
-      alt: 'RealAlcazar',
-    },
-    {
-      src: 'assets/img/Monumentos/Sevilla/RealAlcazar/realalcazardesevilla2.webp',
-      alt: 'RealAlcazar',
-    },
-    {
-      src: 'assets/img/Monumentos/Sevilla/RealAlcazar/realalcazardesevilla3.jpg',
-      alt: 'RealAlcazar',
-    }
-  ];
+  imagenesGaleria = GALERIAS_IMAGENES.realalcazarSevilla;
 }

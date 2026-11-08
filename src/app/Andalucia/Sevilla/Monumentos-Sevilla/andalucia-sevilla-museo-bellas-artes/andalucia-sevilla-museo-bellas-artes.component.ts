@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { MENU_PROVINCIAS } from '../../../../config/menu-provincias.config';
+import { GALERIAS_IMAGENES } from '../../../../config/galeria-imagenes.config';
 
 @Component({
   selector: 'app-andalucia-sevilla-museo-bellas-artes',
@@ -13,10 +14,5 @@ export class AndaluciaSevillaMuseoBellasArtesComponent {
 
   provincias = MENU_PROVINCIAS.sevilla.provincias;
 
-  imagenesGaleria = [
-    {
-      src: 'assets/img/Monumentos/Sevilla/MuseoBellasArtes/MuseoBellasArtes2.jpg',
-      alt: 'BellasArtes',
-    }
-  ];
+  imagenesGaleria = GALERIAS_IMAGENES.bellasartesSevilla;
 }

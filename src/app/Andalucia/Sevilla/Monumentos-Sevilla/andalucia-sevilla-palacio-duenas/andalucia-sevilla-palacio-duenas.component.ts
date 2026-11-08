@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { MENU_PROVINCIAS } from '../../../../config/menu-provincias.config';
+import { GALERIAS_IMAGENES } from '../../../../config/galeria-imagenes.config';
 
 @Component({
   selector: 'app-andalucia-sevilla-palacio-duenas',
@@ -13,10 +14,5 @@ export class AndaluciaSevillaPalacioDuenasComponent {
 
   provincias = MENU_PROVINCIAS.sevilla.provincias;
 
-  imagenesGaleria = [
-    {
-      src: 'assets/img/Monumentos/Sevilla/PalacioDuenas/PalacioDuenas1.jpg',
-      alt: 'PalacioDuenas',
-    }
-  ];
+  imagenesGaleria = GALERIAS_IMAGENES.palacioduenasSevilla;
 }
