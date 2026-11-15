@@ -110,3 +110,134 @@ iframe {
   height: 100%;
   border: 0;
 }
+
+/* ==========================================
+   MOVILES
+   ========================================== */
+
+@media (max-width: 576px) {
+  .Monumentos-sevilla {
+    padding: 10px;
+  }
+
+  .Monumentos-sevilla .titulo {
+    font-size: 24px;
+  }
+
+  .Monumentos-sevilla .row .column {
+    flex-direction: column;
+  }
+
+  .Monumentos-sevilla .row .column .module {
+    width: 100%;
+    padding: 8px 5px;
+  }
+
+  .Monumentos-sevilla .row .column .module img {
+    border-width: 5px;
+    border-radius: 10px;
+  }
+
+  .style-texto {
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 1.5;
+  }
+
+  .mapa-ubicacion {
+    height: 250px;
+  }
+
+  .informacion-visita {
+    position: relative;
+    top: auto;
+    width: 100%;
+    max-width: 100%;
+    margin: 20px auto;
+    padding: 12px;
+    box-sizing: border-box;
+    font-size: 14px;
+  }
+
+  .informacion-visita h2 {
+    font-size: 16px;
+  }
+
+  .informacion-visita h2 img {
+    width: 30px;
+  }
+
+  .informacion-visita p {
+    overflow-wrap: break-word;
+  }
+}
+
+/* ==========================================
+   TABLETS
+   ========================================== */
+
+@media (min-width: 577px) and (max-width: 1024px) {
+  .Monumentos-sevilla {
+    padding: 15px;
+  }
+
+  .Monumentos-sevilla .row .column .module {
+    width: 50%;
+    padding: 10px;
+  }
+
+  .style-texto {
+    font-size: 24px;
+    letter-spacing: -1px;
+  }
+
+  .mapa-ubicacion {
+    height: 350px;
+  }
+
+  .informacion-visita {
+    position: relative;
+    top: auto;
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto;
+    box-sizing: border-box;
+  }
+
+  .informacion-visita h2 img {
+    width: 30px;
+  }
+}
+
+/* ==========================================
+   IPAD PRO 13"
+   ========================================== */
+
+@media (min-width: 1025px) and (max-width: 1366px) {
+  .Monumentos-sevilla {
+    padding: 20px;
+  }
+
+  .Monumentos-sevilla .row .column .module {
+    width: 50%;
+    padding: 12px;
+  }
+
+  .style-texto {
+    font-size: 26px;
+    letter-spacing: -1px;
+  }
+
+  .mapa-ubicacion {
+    height: 380px;
+  }
+
+  .informacion-visita {
+    position: relative;
+    top: auto;
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto;
+    box-sizing: border-box;
+  }
+}

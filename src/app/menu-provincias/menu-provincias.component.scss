@@ -53,3 +53,143 @@
   top: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
+
+/* TABLETS */
+@media screen and (max-width: 768px) {
+
+  .provincias-andaluzas {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    gap: 20px 10px;
+    padding: 15px;
+  }
+
+  .imagen-izquierda,
+  .imagen-derecha {
+    position: static;
+    width: 75px;
+    height: auto;
+  }
+
+  .provincias-list {
+    grid-column: 1 / -1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px 10px;
+    margin: 0;
+  }
+
+  .provincias-list li {
+    margin: 0;
+  }
+
+  .imagen-izquierda {
+  grid-column: 1;
+  grid-row: 1;
+  justify-self: center;
+}
+
+.imagen-derecha {
+  grid-column: 2;
+  grid-row: 1;
+  justify-self: center;
+}
+
+.provincias-list {
+  grid-column: 1 / -1;
+  grid-row: 2;
+}
+
+}
+
+/* TABLETS GRANDES */
+@media screen and (min-width: 769px) and (max-width: 1366px) {
+
+  .provincias-andaluzas {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    gap: 20px 10px;
+    padding: 15px;
+  }
+
+  .imagen-izquierda,
+  .imagen-derecha {
+    position: static;
+    width: 85px;
+    height: auto;
+  }
+
+  .provincias-list {
+    grid-column: 1 / -1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin: 0;
+  }
+
+  .provincias-list li {
+    margin: 0;
+  }
+
+  .imagen-izquierda {
+  grid-column: 1;
+  grid-row: 1;
+  justify-self: center;
+}
+
+.imagen-derecha {
+  grid-column: 2;
+  grid-row: 1;
+  justify-self: center;
+}
+
+.provincias-list {
+  grid-column: 1 / -1;
+  grid-row: 2;
+}
+
+}
+
+/* MOVILES */
+@media screen and (max-width: 576px) {
+
+  .provincias-andaluzas {
+    padding: 15px 10px;
+    gap: 15px 5px;
+  }
+
+  .imagen-izquierda,
+  .imagen-derecha {
+    width: 60px;
+  }
+
+  .provincias-list {
+    gap: 15px 8px;
+  }
+
+  .provincias-list a {
+    font-size: 14px;
+    padding: 5px 8px;
+  }
+
+  .imagen-izquierda {
+  grid-column: 1;
+  grid-row: 1;
+  justify-self: center;
+}
+
+.imagen-derecha {
+  grid-column: 2;
+  grid-row: 1;
+  justify-self: center;
+}
+
+.provincias-list {
+  grid-column: 1 / -1;
+  grid-row: 2;
+}
+}
